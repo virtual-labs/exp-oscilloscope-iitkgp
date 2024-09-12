@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Oscilloscope is __________",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "a ohmmeter",
+        "b": "an ammeter",
+        "c": "a voltmeter",
+        "d": "a multimeter"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+     
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "One oscilloscope selector knob that allows the major and minor divisions of the graticule to be used to determine a signal amplitude value is called the",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Time/cm control",
+        "b": "Volts/cm control",
+        "c": " Intensity control",
+        "d": "Position control"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "A CRO can display",
+      "answers": {
+        "a": "AC signals",
+        "b": "DC signals",
+        "c": "Both AC and DC signals",
+        "d": "Time-invariant Signals"
       },
+      
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the vertical sensitivity is set to 1 volt per division and occupies 2 divisions, then peak-to-peak voltage is",
+      "answers": {
+        "a": "4 volt",
+        "b": "5 volt",
+        "c": "2 volt",
+        "d": "20 volt"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the controls on the CRO are set at 0.2ms/div, find the frequency of the signal?<br/><p style=\"text-align:center\"><img src=\"image/postquiz3.png \" style=\"width:350px;height:200px\"></p>",
+      "answers": {
+        "a": "1 kHz",
+        "b": "2 kHz",
+        "c": "3 kHz",
+        "d": "4 kHz"
+      },
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
