@@ -50,7 +50,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "If the controls on the CRO are set at 0.2ms/div, find the frequency of the signal?<br/><p style=\"text-align:center\"><img src=\"image/postquiz3.png \" style=\"width:350px;height:200px\"></p>",
+      "question": "If the controls on the CRO are set at 0.2ms/div, find the frequency of the signal?<br/><p style=\"text-align:center\"><img src=\"images/postquiz3.png \" style=\"width:350px;height:200px\"></p>",
       "answers": {
         "a": "1 kHz",
         "b": "2 kHz",
