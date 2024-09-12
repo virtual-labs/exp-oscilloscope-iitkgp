@@ -1,1 +1,1 @@
-## Experiment name
+## Familiarisation with Oscilloscope and Function Generator
