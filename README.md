@@ -11,12 +11,12 @@
 Fill a brief description of this experiment here
 
 ### Subject Matter Expert
-<b>Name | <b> **Prof. Chittaranjan Mandal**
+<b>Name | <b> **Prof. C.S.Kumar**
 :--|:--|
 <b> Institute | <b>  **Indian Institute of Technology Kharagpur**
-<b> Email id|     <b>  **chitta@iitkgp.ac.in**
-<b> Department |  **Department of Computer Science and Engineering**
-<b>Webpage| <b> [http://www.iitkgp.ac.in/department/CS/faculty/cs-chitta](http://www.iitkgp.ac.in/department/CS/faculty/cs-chitta)
+<b> Email id|     <b>  **kumar@mech.iitkgp.ac.in**
+<b> Department |  **Department of Mechanical Engineering **
+<b>Webpage| <b> [http://facweb.iitkgp.ac.in/~cskumar/](http://facweb.iitkgp.ac.in/~cskumar/)
 
 
 ### Contributors List
