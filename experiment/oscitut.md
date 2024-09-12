@@ -34,3 +34,6 @@ In the figure 3, if volt/div is set to 2 volt/div, which implies each mazor divi
 </div>
 
 Note: If you set the Volts/Div too low, you’ll clip the signal. Similarly, setting it too high, and you’ll won’t find the signal, i.e. the signal will b flat. ncreasing the Timebase will display more cycles of a periodic signal. Conversely, reducing the Timebase, fewer cycles will be displayed.
+
+Oscilloscope and function generator is described more elaborately->
+[Oscilloscope and Function Generator](http://vlabs.iitkgp.ac.in/aec/exp1/content/Oscilloscope%20and%20Function%20Generator%20Details.pdf)

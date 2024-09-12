@@ -104,3 +104,6 @@ A function generator is a device that can produce various patterns of voltage at
 - After powering on the function generator, the output signal needs to be configured to the desired shape. Typically, this means connecting the signal and ground leads to an oscilloscope to check the controls.
 - Adjust the function generator until the output signal is correct, then attach the signal and ground leads from the function generator to the input and ground of the device under test.
 - For some applications, the negative lead of the function generator should attach to a negative input of the device, but usually attaching to ground is sufficient.
+
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
