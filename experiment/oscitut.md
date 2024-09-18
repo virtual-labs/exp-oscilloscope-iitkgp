@@ -38,6 +38,3 @@ Note: If you set the Volts/Div too low, you’ll clip the signal. Similarly, set
 Oscilloscope and function generator is described more elaborately->
 [Oscilloscope and Function Generator](http://vlabs.iitkgp.ac.in/aec/exp1/content/Oscilloscope%20and%20Function%20Generator%20Details.pdf)
 
-<embed src="/images/Oscilloscope and Function Generator Details.pdf" type="application/pdf">
-
-<object data="/images/Oscilloscope_and_Function_Generator_Details.pdf" type="application/pdf" width="100%"> </object>
