@@ -77,21 +77,21 @@ A function generator is a device that can produce various patterns of voltage at
 
 <div align="center">
 <img src="images/sqrwave.png" width="50%">
-<p>Figure 4</p>
+<p>Figure 5</p>
 </div>
 
 - **Sine wave** - The signal curves like a sinusoid from high to low voltage.
 
 <div align="center">
 <img src="images/sinewave.png" width="50%">
-<p>Figure 4</p>
+<p>Figure 6</p>
 </div>
 
 - **Triangle wave** - The signal goes from high to low voltage at a fixed rate.
 
 <div align="center">
 <img src="images/triwave.png" width="50%">
-<p>Figure 4</p>
+<p>Figure 7</p>
 </div>
 
 2. The amplitude control on a function generator varies the voltage difference between the high and low voltage of the output signal.
