@@ -1,10 +1,10 @@
 ## Introduction
 
 
-<b>Discipline | <b>Electronics and Communication and Engineering
+<b>Discipline | <b>Electronics and Communication Engineering
 :--|:--|
 <b> Lab | <b>  Analog Electronics Circuits Virtual Laboratory
-<b> Experiment|     <b> Familiarisation with Oscilloscope and Function Generator
+<b> Experiment Name|     <b> Familiarisation with Oscilloscope and Function Generator
 
 ### About the Experiment 
 
