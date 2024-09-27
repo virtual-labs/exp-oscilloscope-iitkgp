@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Oscilloscope is __________",
+      "question": "1. Oscilloscope is __________",
       "answers": {
         "a": "a ohmmeter",
         "b": "an ammeter",
@@ -14,7 +14,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "One oscilloscope selector knob that allows the major and minor divisions of the graticule to be used to determine a signal amplitude value is called the",
+      "question": "2. One oscilloscope selector knob that allows the major and minor divisions of the graticule to be used to determine a signal amplitude value is called the",
       "answers": {
         "a": "Time/cm control",
         "b": "Volts/cm control",
@@ -26,7 +26,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "A CRO can display",
+      "question": "3. A CRO can display",
       "answers": {
         "a": "AC signals",
         "b": "DC signals",
@@ -38,7 +38,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "If the vertical sensitivity is set to 1 volt per division and occupies 2 divisions, then peak-to-peak voltage is",
+      "question": "4. If the vertical sensitivity is set to 1 volt per division and occupies 2 divisions, then peak-to-peak voltage is",
       "answers": {
         "a": "4 volt",
         "b": "5 volt",
@@ -50,7 +50,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "If the controls on the CRO are set at 0.2ms/div, find the frequency of the signal?<br/><p style=\"text-align:center\"><img src=\"image/postquiz3.png \" style=\"width:350px;height:200px\"></p>",
+      "question": "5. If the controls on the CRO are set at 0.2ms/div, find the frequency of the signal?<br/><p style=\"text-align:center\"><img src=\"images/postquiz3.png \" style=\"width:350px;height:200px\"></p>",
       "answers": {
         "a": "1 kHz",
         "b": "2 kHz",

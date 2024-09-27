@@ -8,15 +8,19 @@
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+1. Familiarisation of Function Generator
+2. To undertand Oscilloscope using the Sine, Square, and Triangle waveforms.
+3. Checking the frequencies of the Sine, Square, and Triangle waves on the waveform generator
+4. This experiment will help the students to learn measuring voltages, time, frequency.
+5. This experiment will help the students to learn about lissajous figures
 
-### Subject Matter Expert
-<b>Name | <b> **Prof. Chittaranjan Mandal**
+### Project Principal Investigator
+<b>Name | <b> **Prof. C.S.Kumar**
 :--|:--|
 <b> Institute | <b>  **Indian Institute of Technology Kharagpur**
-<b> Email id|     <b>  **chitta@iitkgp.ac.in**
-<b> Department |  **Department of Computer Science and Engineering**
-<b>Webpage| <b> [http://www.iitkgp.ac.in/department/CS/faculty/cs-chitta](http://www.iitkgp.ac.in/department/CS/faculty/cs-chitta)
+<b> Email id|     <b>  **kumar@mech.iitkgp.ac.in**
+<b> Department |  **Department of Mechanical Engineering**
+<b>Webpage| <b> [http://facweb.iitkgp.ac.in/~cskumar/](http://facweb.iitkgp.ac.in/~cskumar/)
 
 
 ### Contributors List
