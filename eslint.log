@@ -1,0 +1,1574 @@
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/circletype.min.js
+  7:1  error  Parsing error: Unexpected token <
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/cktconnection_oscilloscope.js
+    1:1   warning  'jsPlumb' is not defined                       no-undef
+    6:9   warning  'addDisc' is assigned a value but never used   no-unused-vars
+    8:17  warning  'e' is assigned a value but never used         no-unused-vars
+   15:9   warning  'reset' is assigned a value but never used     no-unused-vars
+   28:48  warning  'e' is defined but never used                  no-unused-vars
+   28:51  warning  'ui' is defined but never used                 no-unused-vars
+   30:21  warning  'jsPlumb' is not defined                       no-undef
+   88:16  warning  'jsPlumb' is not defined                       no-undef
+   97:13  warning  'e1' is assigned a value but never used        no-unused-vars
+   98:4   warning  'e2' is assigned a value but never used        no-unused-vars
+   99:13  warning  'e3' is assigned a value but never used        no-unused-vars
+  100:13  warning  'e4' is assigned a value but never used        no-unused-vars
+  101:13  warning  'e5' is assigned a value but never used        no-unused-vars
+  102:13  warning  'e6' is assigned a value but never used        no-unused-vars
+  103:13  warning  'e7' is assigned a value but never used        no-unused-vars
+  106:13  warning  'clearBtn' is assigned a value but never used  no-unused-vars
+  106:24  warning  'jsPlumb' is not defined                       no-undef
+  107:13  warning  'addBtn' is assigned a value but never used    no-unused-vars
+  107:22  warning  'jsPlumb' is not defined                       no-undef
+  110:46  warning  'originalEvent' is defined but never used      no-unused-vars
+  130:5   warning  'jsPlumb' is not defined                       no-undef
+  240:13  warning  'count' is assigned a value but never used     no-unused-vars
+  329:3   warning  Mixed spaces and tabs                          no-mixed-spaces-and-tabs
+  330:2   warning  Mixed spaces and tabs                          no-mixed-spaces-and-tabs
+  331:1   warning  Mixed spaces and tabs                          no-mixed-spaces-and-tabs
+  332:1   warning  Mixed spaces and tabs                          no-mixed-spaces-and-tabs
+  346:10  warning  'deleteconnection' is defined but never used   no-unused-vars
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/graph.ob.js
+  1:745  warning  'b' is already defined  no-redeclare
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/graph_use.ob.js
+  1:103  warning  'drawgraph' is defined but never used  no-unused-vars
+  1:163  warning  'CanvasJS' is not defined              no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/jsplumb1.js
+     68:9   warning  'root' is assigned a value but never used                                  no-unused-vars
+    130:18  warning  'i' is already defined                                                     no-redeclare
+    184:18  warning  'i' is already defined                                                     no-redeclare
+    242:22  warning  'j' is already defined                                                     no-redeclare
+    264:56  warning  't' is defined but never used                                              no-unused-vars
+    279:26  warning  'j' is already defined                                                     no-redeclare
+    582:9   warning  'exports' is not defined                                                   no-undef
+    616:1   warning  Unnecessary semicolon                                                      no-extra-semi
+    626:9   warning  'exports' is not defined                                                   no-undef
+    661:9   warning  '_normal' is assigned a value but never used                               no-unused-vars
+    672:9   warning  '_lineLength' is assigned a value but never used                           no-unused-vars
+    706:9   warning  '_theta' is assigned a value but never used                                no-unused-vars
+    725:9   warning  '_intersects' is assigned a value but never used                           no-unused-vars
+    747:9   warning  '_encloses' is assigned a value but never used                             no-unused-vars
+    764:9   warning  '_pointOnLine' is assigned a value but never used                          no-unused-vars
+    781:9   warning  '_perpendicularLineTo' is assigned a value but never used                  no-unused-vars
+    789:1   warning  Unnecessary semicolon                                                      no-extra-semi
+    846:28  warning  'view' is defined but never used                                           no-unused-vars
+    846:34  warning  'target' is defined but never used                                         no-unused-vars
+    846:42  warning  'pageX' is defined but never used                                          no-unused-vars
+    846:49  warning  'pageY' is defined but never used                                          no-unused-vars
+    846:56  warning  'screenX' is defined but never used                                        no-unused-vars
+    846:65  warning  'screenY' is defined but never used                                        no-unused-vars
+    846:74  warning  'clientX' is defined but never used                                        no-unused-vars
+    846:83  warning  'clientY' is defined but never used                                        no-unused-vars
+   1040:58  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1082:39  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1132:9   warning  'touchstart' is assigned a value but never used                            no-unused-vars
+   1132:36  warning  'touchend' is assigned a value but never used                              no-unused-vars
+   1132:59  warning  'touchmove' is assigned a value but never used                             no-unused-vars
+   1137:54  warning  Unnecessary escape character: \.                                           no-useless-escape
+   1223:73  warning  Invalid typeof comparison value                                            valid-typeof
+   1286:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1288:51  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   1310:29  warning  'el' is defined but never used                                             no-unused-vars
+   1310:33  warning  'event' is defined but never used                                          no-unused-vars
+   1310:40  warning  'children' is defined but never used                                       no-unused-vars
+   1310:50  warning  'fn' is defined but never used                                             no-unused-vars
+   1457:9   warning  'exports' is not defined                                                   no-undef
+   1490:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   1595:54  warning  Unnecessary escape character: \.                                           no-useless-escape
+   1719:42  warning  'scope' is defined but never used                                          no-unused-vars
+   1727:13  warning  'scroll' is assigned a value but never used                                no-unused-vars
+   1875:13  warning  '_addFilter' is assigned a value but never used                            no-unused-vars
+   1876:13  warning  '_removeFilter' is assigned a value but never used                         no-unused-vars
+   2091:31  warning  Empty block statement                                                      no-empty
+   2280:42  warning  'scope' is defined but never used                                          no-unused-vars
+   2300:56  warning  'drag' is defined but never used                                           no-unused-vars
+   2388:13  warning  '_getMatchingDroppables' is assigned a value but never used                no-unused-vars
+   2432:18  warning  'i' is already defined                                                     no-redeclare
+   2754:40  warning  'spec' is defined but never used                                           no-unused-vars
+   2777:38  warning  'spec' is defined but never used                                           no-unused-vars
+   2862:9   warning  'exports' is not defined                                                   no-undef
+   2874:42  warning  'exports' is not defined                                                   no-undef
+   2915:19  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3011:26  warning  Unnecessary escape character: \.                                           no-useless-escape
+   3012:40  warning  Unnecessary escape character: \[                                           no-useless-escape
+   3180:36  warning  '_protoFn' is defined but never used                                       no-unused-vars
+   3188:45  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3188:83  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3201:41  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3201:79  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   3242:42  warning  Empty block statement                                                      no-empty
+   3320:23  warning  Empty block statement                                                      no-empty
+   3488:2   warning  Unnecessary semicolon                                                      no-extra-semi
+   3553:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   3585:9   warning  'eventFilters' is assigned a value but never used                          no-unused-vars
+   3604:9   warning  '_each' is assigned a value but never used                                 no-unused-vars
+   4583:13  warning  '_setDraggable' is assigned a value but never used                         no-unused-vars
+   4807:56  warning  'args' is defined but never used                                           no-unused-vars
+   4855:60  warning  'cEl' is assigned a value but never used                                   no-unused-vars
+   5481:13  warning  '_unmanage' is assigned a value but never used                             no-unused-vars
+   5576:68  warning  'jsPlumbInstance' is assigned a value but never used                       no-unused-vars
+   6146:39  warning  'scope' is defined but never used                                          no-unused-vars
+   6751:9   warning  'exports' is not defined                                                   no-undef
+   6766:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   6882:36  warning  'ignoreAttachedElements' is defined but never used                         no-unused-vars
+   7059:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   7304:41  warning  'doNotRepaint' is defined but never used                                   no-unused-vars
+   7309:50  warning  'doNotRepaint' is defined but never used                                   no-unused-vars
+   7374:53  warning  'fireEvent' is defined but never used                                      no-unused-vars
+   7374:64  warning  'originalEvent' is defined but never used                                  no-unused-vars
+   7488:52  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   7534:39  warning  'startParams' is defined but never used                                    no-unused-vars
+   8111:17  warning  'elId' is assigned a value but never used                                  no-unused-vars
+   8348:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   8865:52  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   8889:52  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   8901:21  warning  'jsPlumb' is not defined                                                   no-undef
+   8984:1   warning  Unnecessary semicolon                                                      no-extra-semi
+   9709:27  warning  'Biltong' is not defined                                                   no-undef
+  10061:23  warning  'jsPlumbUtil' is not defined                                               no-undef
+  10293:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  10323:53  warning  'x' is defined but never used                                              no-unused-vars
+  10323:56  warning  'y' is defined but never used                                              no-unused-vars
+  10350:46  warning  'x1' is defined but never used                                             no-unused-vars
+  10350:50  warning  'y1' is defined but never used                                             no-unused-vars
+  10350:54  warning  'x2' is defined but never used                                             no-unused-vars
+  10350:58  warning  'y2' is defined but never used                                             no-unused-vars
+  10383:17  warning  '_super' is assigned a value but never used                                no-unused-vars
+  10441:46  warning  '_' is defined but never used                                              no-unused-vars
+  10643:17  warning  '_super' is assigned a value but never used                                no-unused-vars
+  10789:17  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11112:13  warning  'dumpSegmentsToConsole' is assigned a value but never used                 no-unused-vars
+  11168:48  warning  'anchorPoint' is defined but never used                                    no-unused-vars
+  11168:61  warning  'orientation' is defined but never used                                    no-unused-vars
+  11168:74  warning  'endpointStyle' is defined but never used                                  no-unused-vars
+  11168:89  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11201:13  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11207:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11228:13  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11233:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11244:40  warning  'params' is defined but never used                                         no-unused-vars
+  11322:48  warning  'orientation' is defined but never used                                    no-unused-vars
+  11322:61  warning  'endpointStyle' is defined but never used                                  no-unused-vars
+  11322:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11348:40  warning  'd' is defined but never used                                              no-unused-vars
+  11348:43  warning  'style' is defined but never used                                          no-unused-vars
+  11348:50  warning  'anchor' is defined but never used                                         no-unused-vars
+  11391:13  warning  '_super' is assigned a value but never used                                no-unused-vars
+  11394:48  warning  'orientation' is defined but never used                                    no-unused-vars
+  11394:61  warning  'endpointStyle' is defined but never used                                  no-unused-vars
+  11394:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11410:32  warning  'style' is defined but never used                                          no-unused-vars
+  11410:39  warning  'anchor' is defined but never used                                         no-unused-vars
+  11443:76  warning  'connectorPaintStyle' is defined but never used                            no-unused-vars
+  11472:27  warning  'instance' is defined but never used                                       no-unused-vars
+  11472:37  warning  'component' is defined but never used                                      no-unused-vars
+  11541:43  warning  'component' is defined but never used                                      no-unused-vars
+  11705:17  warning  'jsPlumb' is not defined                                                   no-undef
+  11812:37  warning  'component' is defined but never used                                      no-unused-vars
+  11822:29  warning  'containerExtents' is defined but never used                               no-unused-vars
+  11850:37  warning  'params' is defined but never used                                         no-unused-vars
+  11863:42  warning  'currentConnectionPaintStyle' is defined but never used                    no-unused-vars
+  11907:13  warning  'labelWidth' is assigned a value but never used                            no-unused-vars
+  11907:32  warning  'labelHeight' is assigned a value but never used                           no-unused-vars
+  11907:52  warning  'labelText' is assigned a value but never used                             no-unused-vars
+  11907:70  warning  'labelPadding' is assigned a value but never used                          no-unused-vars
+  11997:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  12441:35  warning  'conn' is defined but never used                                           no-unused-vars
+  12441:41  warning  'endpointIndex' is defined but never used                                  no-unused-vars
+  12445:37  warning  'conn' is defined but never used                                           no-unused-vars
+  12445:43  warning  'endpointIndex' is defined but never used                                  no-unused-vars
+  12453:56  warning  'jsPlumb' is not defined                                                   no-undef
+  12489:38  warning  '_el' is defined but never used                                            no-unused-vars
+  12489:43  warning  'targetGroup' is defined but never used                                    no-unused-vars
+  12539:25  warning  'jsPlumbUtil' is not defined                                               no-undef
+  12883:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  12899:41  warning  'lastOrientation' is assigned a value but never used                       no-unused-vars
+  12903:13  warning  'loopbackRadius' is assigned a value but never used                        no-unused-vars
+  12904:13  warning  'isLoopbackCurrently' is assigned a value but never used                   no-unused-vars
+  13248:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  13257:13  warning  'curviness' is assigned a value but never used                             no-unused-vars
+  13259:13  warning  'proximityLimit' is assigned a value but never used                        no-unused-vars
+  13262:13  warning  'isLoopbackCurrently' is assigned a value but never used                   no-unused-vars
+  13401:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  13496:13  warning  'clockwise' is assigned a value but never used                             no-unused-vars
+  13596:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  13603:30  warning  'params' is defined but never used                                         no-unused-vars
+  13607:46  warning  '_' is defined but never used                                              no-unused-vars
+  13628:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  14033:35  warning  'style' is defined but never used                                          no-unused-vars
+  14056:35  warning  'style' is defined but never used                                          no-unused-vars
+  14092:13  warning  'self' is assigned a value but never used                                  no-unused-vars
+  14251:1   warning  Unnecessary semicolon                                                      no-extra-semi
+  14444:39  warning  'jsPlumb' is not defined                                                   no-undef
+  14473:29  warning  'jsPlumb' is not defined                                                   no-undef
+  14480:38  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  14481:39  warning  'jsPlumb' is not defined                                                   no-undef
+  14548:40  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  14639:22  warning  'jsPlumb' is not defined                                                   no-undef
+  14644:24  warning  'jsPlumb' is not defined                                                   no-undef
+  14770:26  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  14783:13  warning  'jsPlumb' is not defined                                                   no-undef
+  14788:18  warning  'jsPlumb' is not defined                                                   no-undef
+  14797:13  warning  'jsPlumb' is not defined                                                   no-undef
+  14802:17  warning  'jsPlumb' is not defined                                                   no-undef
+  14803:17  warning  'jsPlumb' is not defined                                                   no-undef
+  14805:17  warning  'jsPlumb' is not defined                                                   no-undef
+  14809:13  warning  'jsPlumb' is not defined                                                   no-undef
+  14815:17  warning  'jsPlumb' is not defined                                                   no-undef
+  14853:18  warning  'jsPlumb' is not defined                                                   no-undef
+  14901:22  warning  'jsPlumb' is not defined                                                   no-undef
+  14982:20  warning  'jsPlumb' is not defined                                                   no-undef
+  14996:13  warning  'jsPlumb' is not defined                                                   no-undef
+  15008:18  warning  'jsPlumb' is not defined                                                   no-undef
+  15011:25  warning  'jsPlumb' is not defined                                                   no-undef
+  15013:35  warning  'jsPlumb' is not defined                                                   no-undef
+  15014:30  warning  'jsPlumb' is not defined                                                   no-undef
+  15015:45  warning  'jsPlumb' is not defined                                                   no-undef
+  15016:45  warning  'jsPlumb' is not defined                                                   no-undef
+  15017:46  warning  'jsPlumb' is not defined                                                   no-undef
+  15133:36  warning  'el' is defined but never used                                             no-unused-vars
+  15133:40  warning  'options' is defined but never used                                        no-unused-vars
+  15136:36  warning  'el' is defined but never used                                             no-unused-vars
+  15136:40  warning  'options' is defined but never used                                        no-unused-vars
+  15152:45  warning  'zoom' is defined but never used                                           no-unused-vars
+  15192:33  warning  'spec' is defined but never used                                           no-unused-vars
+  15201:31  warning  'spec' is defined but never used                                           no-unused-vars
+  15210:38  warning  'posseId' is defined but never used                                        no-unused-vars
+  15263:23  warning  'el' is defined but never used                                             no-unused-vars
+  15263:27  warning  'event' is defined but never used                                          no-unused-vars
+  15263:34  warning  'callback' is defined but never used                                       no-unused-vars
+  15272:24  warning  'el' is defined but never used                                             no-unused-vars
+  15272:28  warning  'event' is defined but never used                                          no-unused-vars
+  15272:35  warning  'callback' is defined but never used                                       no-unused-vars
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/lib/MathJax.js
+  19:95     warning  'MathJax' is not defined                                                   no-undef
+  19:196    warning  'MathJax' is not defined                                                   no-undef
+  19:218    warning  'MathJax' is not defined                                                   no-undef
+  19:242    warning  'MathJax' is not defined                                                   no-undef
+  19:270    warning  'MathJax' is not defined                                                   no-undef
+  19:297    warning  'MathJax' is not defined                                                   no-undef
+  19:484    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:1102   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:1288   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:2019   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:2910   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:6755   warning  'MathJax' is not defined                                                   no-undef
+  19:11883  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:12109  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:12477  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:12833  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:13198  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:13381  warning  'MathJax' is not defined                                                   no-undef
+  19:16987  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:17284  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:17408  warning  'MathJax' is not defined                                                   no-undef
+  19:17491  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:17558  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:17629  warning  'MathJax' is not defined                                                   no-undef
+  19:17740  warning  'MathJax' is not defined                                                   no-undef
+  19:17808  warning  'MathJax' is not defined                                                   no-undef
+  19:18559  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:18821  warning  Empty block statement                                                      no-empty
+  19:18969  warning  Empty block statement                                                      no-empty
+  19:19248  warning  'MathJax' is not defined                                                   no-undef
+  19:20908  warning  Unnecessary escape character: \%                                           no-useless-escape
+  19:20935  warning  Unnecessary escape character: \}                                           no-useless-escape
+  19:21213  warning  'MathJax' is not defined                                                   no-undef
+  19:21390  warning  'MathJax' is not defined                                                   no-undef
+  19:22409  warning  'MathJax' is not defined                                                   no-undef
+  19:22492  warning  'MathJax' is not defined                                                   no-undef
+  19:22616  warning  'MathJax' is not defined                                                   no-undef
+  19:22899  warning  Unnecessary escape character: \)                                           no-useless-escape
+  19:23079  warning  'MathJax' is not defined                                                   no-undef
+  19:23277  warning  'MathJax' is not defined                                                   no-undef
+  19:23379  warning  'MathJax' is not defined                                                   no-undef
+  19:23685  warning  'MathJax' is not defined                                                   no-undef
+  19:23787  warning  'MathJax' is not defined                                                   no-undef
+  19:23872  warning  'MathJax' is not defined                                                   no-undef
+  19:24071  warning  'MathJax' is not defined                                                   no-undef
+  19:24306  warning  'MathJax' is not defined                                                   no-undef
+  19:24519  warning  'MathJax' is not defined                                                   no-undef
+  19:24679  warning  'MathJax' is not defined                                                   no-undef
+  19:24723  warning  'MathJax' is not defined                                                   no-undef
+  19:24764  warning  'MathJax' is not defined                                                   no-undef
+  19:24841  warning  'MathJax' is not defined                                                   no-undef
+  19:25126  warning  'MathJax' is not defined                                                   no-undef
+  19:25349  warning  'MathJax' is not defined                                                   no-undef
+  19:25379  warning  'MathJax' is not defined                                                   no-undef
+  19:25398  warning  'MathJax' is not defined                                                   no-undef
+  19:26041  warning  'MathJax' is not defined                                                   no-undef
+  19:26222  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:26640  warning  'a' is defined but never used                                              no-unused-vars
+  19:26643  warning  'MathJax' is not defined                                                   no-undef
+  19:26714  warning  'MathJax' is not defined                                                   no-undef
+  19:26752  warning  'MathJax' is not defined                                                   no-undef
+  19:26818  warning  'MathJax' is not defined                                                   no-undef
+  19:26895  warning  'a' is defined but never used                                              no-unused-vars
+  19:26898  warning  'MathJax' is not defined                                                   no-undef
+  19:26959  warning  'MathJax' is not defined                                                   no-undef
+  19:27973  warning  'MathJax' is not defined                                                   no-undef
+  19:28042  warning  'MathJax' is not defined                                                   no-undef
+  19:28236  warning  'MathJax' is not defined                                                   no-undef
+  19:28295  warning  'MathJax' is not defined                                                   no-undef
+  19:28907  warning  'MathJax' is not defined                                                   no-undef
+  19:28944  warning  'MathJax' is not defined                                                   no-undef
+  19:28984  warning  'MathJax' is not defined                                                   no-undef
+  19:29013  warning  'MathJax' is not defined                                                   no-undef
+  19:29198  warning  'MathJax' is not defined                                                   no-undef
+  19:29551  warning  'MathJax' is not defined                                                   no-undef
+  19:29927  warning  'MathJax' is not defined                                                   no-undef
+  19:30435  warning  'MathJax' is not defined                                                   no-undef
+  19:30481  warning  'MathJax' is not defined                                                   no-undef
+  19:31189  warning  'MathJax' is not defined                                                   no-undef
+  19:32013  warning  'MathJax' is not defined                                                   no-undef
+  19:32149  warning  'MathJax' is not defined                                                   no-undef
+  19:32495  warning  'MathJax' is not defined                                                   no-undef
+  19:32531  warning  'MathJax' is not defined                                                   no-undef
+  19:32599  warning  'MathJax' is not defined                                                   no-undef
+  19:32636  warning  'MathJax' is not defined                                                   no-undef
+  19:32697  warning  'MathJax' is not defined                                                   no-undef
+  19:32742  warning  'MathJax' is not defined                                                   no-undef
+  19:32808  warning  'MathJax' is not defined                                                   no-undef
+  19:32836  warning  'MathJax' is not defined                                                   no-undef
+  19:32899  warning  'MathJax' is not defined                                                   no-undef
+  19:32960  warning  'MathJax' is not defined                                                   no-undef
+  19:33018  warning  'MathJax' is not defined                                                   no-undef
+  19:33081  warning  'MathJax' is not defined                                                   no-undef
+  19:33959  warning  'MathJax' is not defined                                                   no-undef
+  19:34212  warning  'MathJax' is not defined                                                   no-undef
+  19:34468  warning  'MathJax' is not defined                                                   no-undef
+  19:34579  warning  'MathJax' is not defined                                                   no-undef
+  19:34768  warning  'MathJax' is not defined                                                   no-undef
+  19:34949  warning  'MathJax' is not defined                                                   no-undef
+  19:35028  warning  'MathJax' is not defined                                                   no-undef
+  19:35201  warning  'MathJax' is not defined                                                   no-undef
+  19:35845  warning  'MathJax' is not defined                                                   no-undef
+  19:35989  warning  'MathJax' is not defined                                                   no-undef
+  19:36069  warning  'MathJax' is not defined                                                   no-undef
+  19:36595  warning  'MathJax' is not defined                                                   no-undef
+  19:36671  warning  'a' is defined but never used                                              no-unused-vars
+  19:37141  warning  'MathJax' is not defined                                                   no-undef
+  19:37335  warning  'MathJax' is not defined                                                   no-undef
+  19:38376  warning  'MathJax' is not defined                                                   no-undef
+  19:39157  warning  'MathJax' is not defined                                                   no-undef
+  19:39290  warning  'MathJax' is not defined                                                   no-undef
+  19:39424  warning  'MathJax' is not defined                                                   no-undef
+  19:39989  warning  'MathJax' is not defined                                                   no-undef
+  19:40131  warning  'MathJax' is not defined                                                   no-undef
+  19:40212  warning  'MathJax' is not defined                                                   no-undef
+  19:40253  warning  'MathJax' is not defined                                                   no-undef
+  19:40368  warning  'MathJax' is not defined                                                   no-undef
+  19:40565  warning  'MathJax' is not defined                                                   no-undef
+  19:40904  warning  'MathJax' is not defined                                                   no-undef
+  19:41060  warning  'MathJax' is not defined                                                   no-undef
+  19:41128  warning  'MathJax' is not defined                                                   no-undef
+  19:41391  warning  'MathJax' is not defined                                                   no-undef
+  19:41592  warning  'MathJax' is not defined                                                   no-undef
+  19:41705  warning  'MathJax' is not defined                                                   no-undef
+  19:42106  warning  'MathJax' is not defined                                                   no-undef
+  19:42286  warning  'MathJax' is not defined                                                   no-undef
+  19:42426  warning  'MathJax' is not defined                                                   no-undef
+  19:42501  warning  'MathJax' is not defined                                                   no-undef
+  19:42538  warning  'MathJax' is not defined                                                   no-undef
+  19:43009  warning  'MathJax' is not defined                                                   no-undef
+  19:43075  warning  'MathJax' is not defined                                                   no-undef
+  19:43130  warning  'MathJax' is not defined                                                   no-undef
+  19:43169  warning  Empty block statement                                                      no-empty
+  19:43275  warning  'MathJax' is not defined                                                   no-undef
+  19:43648  warning  'MathJax' is not defined                                                   no-undef
+  19:44483  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:44531  warning  'MathJax' is not defined                                                   no-undef
+  19:44685  warning  'a' is defined but never used                                              no-unused-vars
+  19:44892  warning  'MathJax' is not defined                                                   no-undef
+  19:44911  warning  'MathJax' is not defined                                                   no-undef
+  19:44937  warning  'MathJax' is not defined                                                   no-undef
+  19:44961  warning  'MathJax' is not defined                                                   no-undef
+  19:44980  warning  'MathJax' is not defined                                                   no-undef
+  19:45024  warning  'MathJax' is not defined                                                   no-undef
+  19:45065  warning  'MathJax' is not defined                                                   no-undef
+  19:45086  warning  'MathJax' is not defined                                                   no-undef
+  19:45109  warning  'MathJax' is not defined                                                   no-undef
+  19:45130  warning  'MathJax' is not defined                                                   no-undef
+  19:45167  warning  'MathJax' is not defined                                                   no-undef
+  19:45199  warning  'MathJax' is not defined                                                   no-undef
+  19:45318  warning  'MathJax' is not defined                                                   no-undef
+  19:45340  warning  'MathJax' is not defined                                                   no-undef
+  19:45367  warning  'MathJax' is not defined                                                   no-undef
+  19:45392  warning  'MathJax' is not defined                                                   no-undef
+  19:45441  warning  'MathJax' is not defined                                                   no-undef
+  19:45494  warning  'MathJax' is not defined                                                   no-undef
+  19:45707  warning  'MathJax' is not defined                                                   no-undef
+  19:45773  warning  'MathJax' is not defined                                                   no-undef
+  19:45785  warning  'MathJax' is not defined                                                   no-undef
+  19:45964  warning  'MathJax' is not defined                                                   no-undef
+  19:46113  warning  'MathJax' is not defined                                                   no-undef
+  19:46214  warning  'MathJax' is not defined                                                   no-undef
+  19:46323  warning  'MathJax' is not defined                                                   no-undef
+  19:46580  warning  'MathJax' is not defined                                                   no-undef
+  19:46605  warning  'MathJax' is not defined                                                   no-undef
+  19:46716  warning  'MathJax' is not defined                                                   no-undef
+  19:46743  warning  'MathJax' is not defined                                                   no-undef
+  19:46823  warning  'MathJax' is not defined                                                   no-undef
+  19:47214  warning  'MathJax' is not defined                                                   no-undef
+  19:47249  warning  'MathJax' is not defined                                                   no-undef
+  19:47336  warning  'MathJax' is not defined                                                   no-undef
+  19:47368  warning  'MathJax' is not defined                                                   no-undef
+  19:47424  warning  'MathJax' is not defined                                                   no-undef
+  19:47575  warning  'MathJax' is not defined                                                   no-undef
+  19:47626  warning  'MathJax' is not defined                                                   no-undef
+  19:47639  warning  'MathJax' is not defined                                                   no-undef
+  19:47723  warning  'MathJax' is not defined                                                   no-undef
+  19:47744  warning  'MathJax' is not defined                                                   no-undef
+  19:47910  warning  'MathJax' is not defined                                                   no-undef
+  19:48086  warning  'MathJax' is not defined                                                   no-undef
+  19:48183  warning  'MathJax' is not defined                                                   no-undef
+  19:48286  warning  'MathJax' is not defined                                                   no-undef
+  19:48336  warning  'MathJax' is not defined                                                   no-undef
+  19:48370  warning  'MathJax' is not defined                                                   no-undef
+  19:48415  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:48528  warning  'MathJax' is not defined                                                   no-undef
+  19:48599  warning  'MathJax' is not defined                                                   no-undef
+  19:49059  warning  'MathJax' is not defined                                                   no-undef
+  19:49090  warning  'MathJax' is not defined                                                   no-undef
+  19:49134  warning  'MathJax' is not defined                                                   no-undef
+  19:49211  warning  'MathJax' is not defined                                                   no-undef
+  19:49248  warning  'MathJax' is not defined                                                   no-undef
+  19:49298  warning  'MathJax' is not defined                                                   no-undef
+  19:49332  warning  'MathJax' is not defined                                                   no-undef
+  19:49398  warning  'MathJax' is not defined                                                   no-undef
+  19:49455  warning  'MathJax' is not defined                                                   no-undef
+  19:49486  warning  'MathJax' is not defined                                                   no-undef
+  19:49530  warning  'MathJax' is not defined                                                   no-undef
+  19:49569  warning  'MathJax' is not defined                                                   no-undef
+  19:49597  warning  'MathJax' is not defined                                                   no-undef
+  19:49695  warning  'MathJax' is not defined                                                   no-undef
+  19:49723  warning  'MathJax' is not defined                                                   no-undef
+  19:49809  warning  'MathJax' is not defined                                                   no-undef
+  19:50210  warning  'MathJax' is not defined                                                   no-undef
+  19:50340  warning  'MathJax' is not defined                                                   no-undef
+  19:50520  warning  'MathJax' is not defined                                                   no-undef
+  19:50572  warning  'MathJax' is not defined                                                   no-undef
+  19:50694  warning  'MathJax' is not defined                                                   no-undef
+  19:50725  warning  'MathJax' is not defined                                                   no-undef
+  19:50867  warning  'MathJax' is not defined                                                   no-undef
+  19:51113  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:51380  warning  'h' is defined but never used                                              no-unused-vars
+  19:51382  warning  'i' is defined but never used                                              no-unused-vars
+  19:51492  warning  'h' is defined but never used                                              no-unused-vars
+  19:51935  warning  'MathJax' is not defined                                                   no-undef
+  19:52020  warning  'MathJax' is not defined                                                   no-undef
+  19:52628  warning  'l' is defined but never used                                              no-unused-vars
+  19:52630  warning  'q' is defined but never used                                              no-unused-vars
+  19:53544  warning  'j' is defined but never used                                              no-unused-vars
+  19:53634  warning  'k' is defined but never used                                              no-unused-vars
+  19:54136  warning  'h' is defined but never used                                              no-unused-vars
+  19:55701  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:55807  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:56683  warning  'MathJax' is not defined                                                   no-undef
+  19:56930  warning  'MathJax' is not defined                                                   no-undef
+  19:57616  warning  Unnecessary escape character: \&                                           no-useless-escape
+  19:57789  warning  Unnecessary escape character: \/                                           no-useless-escape
+  19:59017  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  19:60164  warning  Unnecessary escape character: \/                                           no-useless-escape
+  19:60184  warning  Unnecessary escape character: \)                                           no-useless-escape
+  19:60874  warning  Unnecessary escape character: \/                                           no-useless-escape
+  19:60909  warning  'opera' is not defined                                                     no-undef
+  19:61137  warning  'MathJax' is not defined                                                   no-undef
+  19:61197  warning  'MathJax' is not defined                                                   no-undef
+  19:61318  warning  'ActiveXObject' is not defined                                             no-undef
+  19:61385  warning  Empty block statement                                                      no-empty
+  19:61894  warning  Empty block statement                                                      no-empty
+  19:61952  warning  'MathJax' is not defined                                                   no-undef
+  19:62301  warning  'MathJax' is not defined                                                   no-undef
+  19:62402  warning  Unnecessary semicolon                                                      no-extra-semi
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/lib/d3.v5.min.js
+  2:71      warning  'exports' is not defined                                                   no-undef
+  2:107     warning  'define' is not defined                                                    no-undef
+  2:118     warning  'define' is not defined                                                    no-undef
+  2:6165    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:6700    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7066    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:7215    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:7639    warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:8781    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9046    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11250   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:13496   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18917   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24263   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24524   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24564   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24628   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24667   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24730   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24774   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24823   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:33807   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:35863   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:40866   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:41838   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:42773   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:63187   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:64708   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:64717   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:64914   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:64923   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:70083   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:70110   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:70325   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:70352   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:70822   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:71319   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:72485   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:72849   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:73522   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:73549   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:74135   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:74266   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:74634   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:74885   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75301   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:80712   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:81687   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:85484   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:87570   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:87896   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:95345   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:108506  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:109695  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:109850  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:109932  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:110009  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:110633  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:114017  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:119300  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:138602  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:138739  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:158240  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:158958  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:160622  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:164807  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:165210  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:166759  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:168171  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:169948  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:171450  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:173823  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:180368  warning  Expected a 'break' statement before 'default'                              no-fallthrough
+  2:184934  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:186191  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:192969  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:193929  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:193987  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:199014  warning  Expected a 'break' statement before 'case'                                 no-fallthrough
+  2:204133  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:204553  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:212154  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:220675  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:230809  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:236536  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:236550  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/lib/jquery.knob.min.js
+    2:41  warning  'define' is not defined                   no-undef
+    3:9   warning  'define' is not defined                   no-undef
+    5:11  warning  'jQuery' is not defined                   no-undef
+   94:17  warning  'G_vmlCanvasManager' is not defined       no-undef
+  181:44  warning  'e' is defined but never used             no-unused-vars
+  232:32  warning  'this.$c[0].width' is assigned to itself  no-self-assign
+  244:33  warning  'e' is defined but never used             no-unused-vars
+  246:30  warning  'e' is defined but never used             no-unused-vars
+  248:33  warning  'e' is defined but never used             no-unused-vars
+  248:36  warning  't' is defined but never used             no-unused-vars
+  348:40  warning  'e' is defined but never used             no-unused-vars
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/lib/jquery.min.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:5874   warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+  2:6347   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6601   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7032   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7258   warning  Empty block statement                                                      no-empty
+  2:7820   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9886   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:10196  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11997  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12573  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12611  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13029  warning  Empty block statement                                                      no-empty
+  2:13643  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13955  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15779  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16050  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16250  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16626  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:17329  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19671  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19771  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19831  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21190  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21804  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21915  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:24154  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:24218  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:24220  warning  Unnecessary escape character: \.                                           no-useless-escape
+  3:1903   warning  Empty block statement                                                      no-empty
+  3:5592   warning  Unnecessary escape character: \/                                           no-useless-escape
+  3:6812   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:6952   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:7590   warning  Empty block statement                                                      no-empty
+  3:14362  warning  Unnecessary escape character: \/                                           no-useless-escape
+  3:16666  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:18238  warning  Empty block statement                                                      no-empty
+  3:25355  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:27885  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:425    warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2134   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2200   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2539   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:2605   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:3022   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:3299   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:9024   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11516  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:12237  warning  'j.href' is assigned to itself                                             no-self-assign
+  4:15800  warning  Empty block statement                                                      no-empty
+  4:22413  warning  'define' is not defined                                                    no-undef
+  4:22425  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscope_axis.js
+    8:5   warning  'vmaxs' is assigned a value but never used           no-unused-vars
+   13:10  warning  'mainswt' is defined but never used                  no-unused-vars
+   71:10  warning  'amp1pdiv' is defined but never used                 no-unused-vars
+   77:9   warning  'drawsine' is not defined                            no-undef
+   80:9   warning  'drawsquarewv' is not defined                        no-undef
+   84:9   warning  'bthdhlfrc' is not defined                           no-undef
+   87:8   warning  'grndhlfrc' is not defined                           no-undef
+   91:10  warning  'timepdiv' is defined but never used                 no-unused-vars
+   95:9   warning  'drawsine' is not defined                            no-undef
+   98:9   warning  'drawsquarewv' is not defined                        no-undef
+  101:9   warning  'bthdhlfrc' is not defined                           no-undef
+  104:8   warning  'grndhlfrc' is not defined                           no-undef
+  116:4   warning  'voltperdiv1' is not defined                         no-undef
+  117:4   warning  'vmaxs1' is not defined                              no-undef
+  117:24  warning  'voltperdiv1' is not defined                         no-undef
+  118:3   warning  'voltperdiv2' is not defined                         no-undef
+  119:3   warning  'vmaxs2' is not defined                              no-undef
+  119:23  warning  'voltperdiv2' is not defined                         no-undef
+  128:48  warning  'vmaxs1' is not defined                              no-undef
+  131:46  warning  'vmaxs1' is not defined                              no-undef
+  134:46  warning  'vmaxs1' is not defined                              no-undef
+  137:47  warning  'vmaxs2' is not defined                              no-undef
+  140:46  warning  'vmaxs2' is not defined                              no-undef
+  143:46  warning  'vmaxs2' is not defined                              no-undef
+  147:48  warning  'vmaxs1' is not defined                              no-undef
+  148:48  warning  'vmaxs2' is not defined                              no-undef
+  151:47  warning  'vmaxs1' is not defined                              no-undef
+  152:47  warning  'vmaxs2' is not defined                              no-undef
+  155:47  warning  'vmaxs1' is not defined                              no-undef
+  156:47  warning  'vmaxs2' is not defined                              no-undef
+  160:47  warning  'vmaxs1' is not defined                              no-undef
+  161:47  warning  'vmaxs2' is not defined                              no-undef
+  164:46  warning  'vmaxs1' is not defined                              no-undef
+  165:46  warning  'vmaxs2' is not defined                              no-undef
+  168:46  warning  'vmaxs1' is not defined                              no-undef
+  169:46  warning  'vmaxs2' is not defined                              no-undef
+  201:5   warning  'axismargin' is assigned a value but never used      no-unused-vars
+  208:9   warning  'numofvrtcltick' is assigned a value but never used  no-unused-vars
+  213:9   warning  'axislinewidth' is assigned a value but never used   no-unused-vars
+  214:9   warning  'axiscolor' is assigned a value but never used       no-unused-vars
+  283:10  warning  'chnlo' is defined but never used                    no-unused-vars
+  285:5   warning  'drawsine1' is not defined                           no-undef
+  290:10  warning  'chnlt' is defined but never used                    no-unused-vars
+  292:5   warning  'drawsine2' is not defined                           no-undef
+  298:10  warning  'bthd' is defined but never used                     no-unused-vars
+  300:5   warning  'bothwvsin' is not defined                           no-undef
+  306:12  warning  'grnds' is defined but never used                    no-unused-vars
+  307:7   warning  'grndwvsin' is not defined                           no-undef
+  312:10  warning  'oscilloxymode' is defined but never used            no-unused-vars
+  314:5   warning  'xywvsin' is not defined                             no-undef
+  319:10  warning  'chnlosq' is defined but never used                  no-unused-vars
+  321:5   warning  'drawsquarewv1' is not defined                       no-undef
+  325:10  warning  'chnltsq' is defined but never used                  no-unused-vars
+  327:4   warning  'drawsquarewv2' is not defined                       no-undef
+  332:10  warning  'bthdsq' is defined but never used                   no-unused-vars
+  334:5   warning  'bothwvsq' is not defined                            no-undef
+  338:12  warning  'grndssq' is defined but never used                  no-unused-vars
+  339:7   warning  'grndwvsq' is not defined                            no-undef
+  343:10  warning  'oscilloxymodesq' is defined but never used          no-unused-vars
+  345:5   warning  'xywvsq' is not defined                              no-undef
+  350:10  warning  'chnlotr' is defined but never used                  no-unused-vars
+  352:5   warning  'drawtraingwv1' is not defined                       no-undef
+  355:10  warning  'chnlttr' is defined but never used                  no-unused-vars
+  357:5   warning  'drawtraingwv2' is not defined                       no-undef
+  361:10  warning  'bthdtr' is defined but never used                   no-unused-vars
+  363:5   warning  'bothwvtri' is not defined                           no-undef
+  367:12  warning  'grndstr' is defined but never used                  no-unused-vars
+  368:7   warning  'grndwvtri' is not defined                           no-undef
+  371:10  warning  'oscilloxymodetr' is defined but never used          no-unused-vars
+  373:6   warning  'xywvtri' is not defined                             no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscope_knob.js
+    6:5   warning  'vmaxs' is defined but never used  no-unused-vars
+    7:5   warning  'tmaxs' is defined but never used  no-unused-vars
+    8:1   warning  '$' is not defined                 no-undef
+   11:5   warning  '$' is not defined                 no-undef
+   23:29  warning  'v' is defined but never used      no-unused-vars
+   24:17  warning  'flag' is not defined              no-undef
+   25:17  warning  'drawsine1' is not defined         no-undef
+   27:17  warning  'flag' is not defined              no-undef
+   28:18  warning  'drawsquarewv1' is not defined     no-undef
+   30:17  warning  'flag' is not defined              no-undef
+   31:17  warning  'drawtraingwv1' is not defined     no-undef
+   33:17  warning  'flag' is not defined              no-undef
+   34:17  warning  'drawsine2' is not defined         no-undef
+   36:17  warning  'flag' is not defined              no-undef
+   37:17  warning  'drawsquarewv2' is not defined     no-undef
+   39:18  warning  'flag' is not defined              no-undef
+   40:17  warning  'drawtraingwv2' is not defined     no-undef
+   42:17  warning  'flag' is not defined              no-undef
+   43:17  warning  'bothwvsin' is not defined         no-undef
+   45:17  warning  'flag' is not defined              no-undef
+   46:17  warning  'bothwvsq' is not defined          no-undef
+   48:17  warning  'flag' is not defined              no-undef
+   49:17  warning  'bothwvtri' is not defined         no-undef
+   51:17  warning  'flag' is not defined              no-undef
+   52:17  warning  'xywvsin' is not defined           no-undef
+   54:17  warning  'flag' is not defined              no-undef
+   55:17  warning  'xywvsq' is not defined            no-undef
+   57:17  warning  'flag' is not defined              no-undef
+   58:17  warning  'xywvtri' is not defined           no-undef
+   64:5   warning  '$' is not defined                 no-undef
+   76:29  warning  'v' is defined but never used      no-unused-vars
+   77:17  warning  'flag' is not defined              no-undef
+   78:17  warning  'drawsine1' is not defined         no-undef
+   80:17  warning  'flag' is not defined              no-undef
+   81:18  warning  'drawsquarewv1' is not defined     no-undef
+   83:17  warning  'flag' is not defined              no-undef
+   84:17  warning  'drawtraingwv1' is not defined     no-undef
+   86:17  warning  'flag' is not defined              no-undef
+   87:17  warning  'bothwvsin' is not defined         no-undef
+   89:17  warning  'flag' is not defined              no-undef
+   90:17  warning  'bothwvsq' is not defined          no-undef
+   92:17  warning  'flag' is not defined              no-undef
+   93:17  warning  'bothwvtri' is not defined         no-undef
+   95:17  warning  'flag' is not defined              no-undef
+   96:17  warning  'xywvsin' is not defined           no-undef
+   98:17  warning  'flag' is not defined              no-undef
+   99:17  warning  'xywvsq' is not defined            no-undef
+  101:17  warning  'flag' is not defined              no-undef
+  102:17  warning  'xywvtri' is not defined           no-undef
+  108:5   warning  '$' is not defined                 no-undef
+  120:29  warning  'v' is defined but never used      no-unused-vars
+  122:17  warning  'flag' is not defined              no-undef
+  123:17  warning  'drawsine2' is not defined         no-undef
+  125:17  warning  'flag' is not defined              no-undef
+  126:17  warning  'drawsquarewv2' is not defined     no-undef
+  128:18  warning  'flag' is not defined              no-undef
+  129:17  warning  'drawtraingwv2' is not defined     no-undef
+  131:17  warning  'flag' is not defined              no-undef
+  132:17  warning  'bothwvsin' is not defined         no-undef
+  134:17  warning  'flag' is not defined              no-undef
+  135:17  warning  'bothwvsq' is not defined          no-undef
+  137:17  warning  'flag' is not defined              no-undef
+  138:17  warning  'bothwvtri' is not defined         no-undef
+  140:17  warning  'flag' is not defined              no-undef
+  141:17  warning  'xywvsin' is not defined           no-undef
+  143:17  warning  'flag' is not defined              no-undef
+  144:17  warning  'xywvsq' is not defined            no-undef
+  146:17  warning  'flag' is not defined              no-undef
+  147:17  warning  'xywvtri' is not defined           no-undef
+  154:5   warning  '$' is not defined                 no-undef
+  166:29  warning  'v' is defined but never used      no-unused-vars
+  167:17  warning  'flag' is not defined              no-undef
+  168:17  warning  'drawsine1' is not defined         no-undef
+  170:17  warning  'flag' is not defined              no-undef
+  171:18  warning  'drawsquarewv1' is not defined     no-undef
+  173:17  warning  'flag' is not defined              no-undef
+  174:17  warning  'drawtraingwv1' is not defined     no-undef
+  176:17  warning  'flag' is not defined              no-undef
+  177:17  warning  'bothwvsin' is not defined         no-undef
+  179:17  warning  'flag' is not defined              no-undef
+  180:17  warning  'bothwvsq' is not defined          no-undef
+  182:17  warning  'flag' is not defined              no-undef
+  183:17  warning  'bothwvtri' is not defined         no-undef
+  185:17  warning  'flag' is not defined              no-undef
+  186:17  warning  'xywvsin' is not defined           no-undef
+  188:17  warning  'flag' is not defined              no-undef
+  189:17  warning  'xywvsq' is not defined            no-undef
+  191:17  warning  'flag' is not defined              no-undef
+  192:17  warning  'xywvtri' is not defined           no-undef
+  199:5   warning  '$' is not defined                 no-undef
+  211:29  warning  'v' is defined but never used      no-unused-vars
+  212:17  warning  'flag' is not defined              no-undef
+  213:17  warning  'drawsine1' is not defined         no-undef
+  215:17  warning  'flag' is not defined              no-undef
+  216:18  warning  'drawsquarewv1' is not defined     no-undef
+  218:17  warning  'flag' is not defined              no-undef
+  219:17  warning  'drawtraingwv1' is not defined     no-undef
+  221:17  warning  'flag' is not defined              no-undef
+  222:17  warning  'bothwvsin' is not defined         no-undef
+  224:17  warning  'flag' is not defined              no-undef
+  225:17  warning  'bothwvsq' is not defined          no-undef
+  227:17  warning  'flag' is not defined              no-undef
+  228:17  warning  'bothwvtri' is not defined         no-undef
+  230:17  warning  'flag' is not defined              no-undef
+  231:17  warning  'xywvsin' is not defined           no-undef
+  233:17  warning  'flag' is not defined              no-undef
+  234:17  warning  'xywvsq' is not defined            no-undef
+  236:17  warning  'flag' is not defined              no-undef
+  237:17  warning  'xywvtri' is not defined           no-undef
+  245:5   warning  '$' is not defined                 no-undef
+  257:29  warning  'v' is defined but never used      no-unused-vars
+  259:17  warning  'flag' is not defined              no-undef
+  260:17  warning  'drawsine2' is not defined         no-undef
+  262:17  warning  'flag' is not defined              no-undef
+  263:17  warning  'drawsquarewv2' is not defined     no-undef
+  265:18  warning  'flag' is not defined              no-undef
+  266:17  warning  'drawtraingwv2' is not defined     no-undef
+  268:17  warning  'flag' is not defined              no-undef
+  269:17  warning  'bothwvsin' is not defined         no-undef
+  271:17  warning  'flag' is not defined              no-undef
+  272:17  warning  'bothwvsq' is not defined          no-undef
+  274:17  warning  'flag' is not defined              no-undef
+  275:17  warning  'bothwvtri' is not defined         no-undef
+  277:17  warning  'flag' is not defined              no-undef
+  278:17  warning  'xywvsin' is not defined           no-undef
+  280:17  warning  'flag' is not defined              no-undef
+  281:17  warning  'xywvsq' is not defined            no-undef
+  283:17  warning  'flag' is not defined              no-undef
+  284:17  warning  'xywvtri' is not defined           no-undef
+  290:5   warning  '$' is not defined                 no-undef
+  302:29  warning  'v' is defined but never used      no-unused-vars
+  304:17  warning  'flag' is not defined              no-undef
+  305:17  warning  'drawsine2' is not defined         no-undef
+  307:17  warning  'flag' is not defined              no-undef
+  308:17  warning  'drawsquarewv2' is not defined     no-undef
+  310:18  warning  'flag' is not defined              no-undef
+  311:17  warning  'drawtraingwv2' is not defined     no-undef
+  313:17  warning  'flag' is not defined              no-undef
+  314:17  warning  'bothwvsin' is not defined         no-undef
+  316:17  warning  'flag' is not defined              no-undef
+  317:17  warning  'bothwvsq' is not defined          no-undef
+  319:17  warning  'flag' is not defined              no-undef
+  320:17  warning  'bothwvtri' is not defined         no-undef
+  322:17  warning  'flag' is not defined              no-undef
+  323:17  warning  'xywvsin' is not defined           no-undef
+  325:17  warning  'flag' is not defined              no-undef
+  326:17  warning  'xywvsq' is not defined            no-undef
+  328:17  warning  'flag' is not defined              no-undef
+  329:17  warning  'xywvtri' is not defined           no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscope_sinewv.js
+   13:5   warning  'vmaxs' is defined but never used        no-unused-vars
+   18:10  warning  'posiy1chnge' is defined but never used  no-unused-vars
+   26:10  warning  'drawsquarewv1' is not defined           no-undef
+   29:9   warning  'drawtraingwv1' is not defined           no-undef
+   34:10  warning  'posix2chnge' is defined but never used  no-unused-vars
+   40:10  warning  'drawsquarewv1' is not defined           no-undef
+   43:9   warning  'drawtraingwv1' is not defined           no-undef
+   46:9   warning  'drawsine2' is not defined               no-undef
+   49:9   warning  'drawsquarewv2' is not defined           no-undef
+   52:9   warning  'drawtraingwv2' is not defined           no-undef
+   57:10  warning  'ampfng1' is defined but never used      no-unused-vars
+   63:10  warning  'drawsquarewv1' is not defined           no-undef
+   66:9   warning  'drawtraingwv1' is not defined           no-undef
+   69:9   warning  'bothwvsin' is not defined               no-undef
+   72:9   warning  'bothwvsq' is not defined                no-undef
+   75:9   warning  'bothwvtri' is not defined               no-undef
+   80:10  warning  'freqfng1' is defined but never used     no-unused-vars
+   86:10  warning  'drawsquarewv1' is not defined           no-undef
+   89:9   warning  'drawtraingwv1' is not defined           no-undef
+   92:9   warning  'bothwvsin' is not defined               no-undef
+   95:9   warning  'bothwvsq' is not defined                no-undef
+   98:9   warning  'bothwvtri' is not defined               no-undef
+  128:5   warning  'canvas' is not defined                  no-undef
+  129:17  warning  'canvas' is not defined                  no-undef
+  129:28  warning  'canvas' is not defined                  no-undef
+  131:5   warning  'ctx' is not defined                     no-undef
+  131:11  warning  'canvas' is not defined                  no-undef
+  133:5   warning  'ctx' is not defined                     no-undef
+  134:5   warning  'ctx' is not defined                     no-undef
+  134:24  warning  'canvas' is not defined                  no-undef
+  134:38  warning  'canvas' is not defined                  no-undef
+  138:5   warning  'drawGrid' is not defined                no-undef
+  138:14  warning  'ctx' is not defined                     no-undef
+  139:5   warning  'drawAxis' is not defined                no-undef
+  166:9   warning  'i' is already defined                   no-redeclare
+  173:5   warning  'ctx' is not defined                     no-undef
+  174:5   warning  'ctx' is not defined                     no-undef
+  175:5   warning  'ctx' is not defined                     no-undef
+  185:13  warning  'ctx' is not defined                     no-undef
+  187:13  warning  'ctx' is not defined                     no-undef
+  190:5   warning  'ctx' is not defined                     no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscope_sinewv2.js
+   13:5   warning  'vmaxs' is defined but never used        no-unused-vars
+   18:10  warning  'posiy2chnge' is defined but never used  no-unused-vars
+   24:9   warning  'drawsquarewv2' is not defined           no-undef
+   27:9   warning  'drawtraingwv2' is not defined           no-undef
+   32:10  warning  'posix2chnge' is defined but never used  no-unused-vars
+   35:9   warning  'drawsine1' is not defined               no-undef
+   38:10  warning  'drawsquarewv1' is not defined           no-undef
+   41:9   warning  'drawtraingwv1' is not defined           no-undef
+   47:9   warning  'drawsquarewv2' is not defined           no-undef
+   50:9   warning  'drawtraingwv2' is not defined           no-undef
+   55:10  warning  'ampfng2' is defined but never used      no-unused-vars
+   61:9   warning  'drawsquarewv2' is not defined           no-undef
+   64:9   warning  'drawtraingwv2' is not defined           no-undef
+   67:9   warning  'bothwvsin' is not defined               no-undef
+   70:9   warning  'bothwvsq' is not defined                no-undef
+   73:9   warning  'bothwvtri' is not defined               no-undef
+   78:10  warning  'freqfng2' is defined but never used     no-unused-vars
+   84:9   warning  'drawsquarewv2' is not defined           no-undef
+   87:9   warning  'drawtraingwv2' is not defined           no-undef
+   90:9   warning  'bothwvsin' is not defined               no-undef
+   93:9   warning  'bothwvsq' is not defined                no-undef
+   96:9   warning  'bothwvtri' is not defined               no-undef
+  126:5   warning  'canvas' is not defined                  no-undef
+  127:17  warning  'canvas' is not defined                  no-undef
+  127:28  warning  'canvas' is not defined                  no-undef
+  129:5   warning  'ctx' is not defined                     no-undef
+  129:11  warning  'canvas' is not defined                  no-undef
+  131:5   warning  'ctx' is not defined                     no-undef
+  132:5   warning  'ctx' is not defined                     no-undef
+  132:24  warning  'canvas' is not defined                  no-undef
+  132:38  warning  'canvas' is not defined                  no-undef
+  136:5   warning  'drawGrid' is not defined                no-undef
+  136:14  warning  'ctx' is not defined                     no-undef
+  137:5   warning  'drawAxis' is not defined                no-undef
+  164:9   warning  'i' is already defined                   no-redeclare
+  171:5   warning  'ctx' is not defined                     no-undef
+  172:5   warning  'ctx' is not defined                     no-undef
+  173:5   warning  'ctx' is not defined                     no-undef
+  183:13  warning  'ctx' is not defined                     no-undef
+  185:13  warning  'ctx' is not defined                     no-undef
+  188:5   warning  'ctx' is not defined                     no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscope_sqrwv.js
+    8:6   warning  'posysq1' is assigned a value but never used  no-unused-vars
+   12:6   warning  'vmaxs' is defined but never used             no-unused-vars
+   17:11  warning  'posiy1chnge' is defined but never used       no-unused-vars
+   21:9   warning  'drawsine1' is not defined                    no-undef
+   27:9   warning  'drawtraingwv1' is not defined                no-undef
+   31:11  warning  'posix2chnge' is defined but never used       no-unused-vars
+   34:9   warning  'drawsine1' is not defined                    no-undef
+   40:9   warning  'drawtraingwv1' is not defined                no-undef
+   43:9   warning  'drawsine2' is not defined                    no-undef
+   46:9   warning  'drawsquarewv2' is not defined                no-undef
+   49:9   warning  'drawtraingwv2' is not defined                no-undef
+   54:11  warning  'ampfng1' is defined but never used           no-unused-vars
+   57:9   warning  'drawsine1' is not defined                    no-undef
+   63:9   warning  'drawtraingwv1' is not defined                no-undef
+   68:11  warning  'freqfng1' is defined but never used          no-unused-vars
+   71:9   warning  'drawsine1' is not defined                    no-undef
+   77:9   warning  'drawtraingwv1' is not defined                no-undef
+  109:6   warning  'canvas' is not defined                       no-undef
+  110:18  warning  'canvas' is not defined                       no-undef
+  110:29  warning  'canvas' is not defined                       no-undef
+  112:6   warning  'ctx' is not defined                          no-undef
+  112:12  warning  'canvas' is not defined                       no-undef
+  114:6   warning  'ctx' is not defined                          no-undef
+  115:6   warning  'ctx' is not defined                          no-undef
+  115:25  warning  'canvas' is not defined                       no-undef
+  115:39  warning  'canvas' is not defined                       no-undef
+  119:6   warning  'drawGrid' is not defined                     no-undef
+  119:15  warning  'ctx' is not defined                          no-undef
+  120:6   warning  'drawAxis' is not defined                     no-undef
+  129:6   warning  'posy1sq' is not defined                      no-undef
+  149:10  warning  'i' is already defined                        no-redeclare
+  156:6   warning  'ctx' is not defined                          no-undef
+  157:6   warning  'ctx' is not defined                          no-undef
+  158:6   warning  'ctx' is not defined                          no-undef
+  159:28  warning  'posy1sq' is not defined                      no-undef
+  168:14  warning  'ctx' is not defined                          no-undef
+  170:14  warning  'ctx' is not defined                          no-undef
+  173:6   warning  'ctx' is not defined                          no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscope_sqrwv2.js
+   12:6   warning  'vmaxs' is defined but never used        no-unused-vars
+   17:11  warning  'posiy2chnge' is defined but never used  no-unused-vars
+   20:9   warning  'drawsine2' is not defined               no-undef
+   26:9   warning  'drawtraingwv2' is not defined           no-undef
+   32:11  warning  'posix2chnge' is defined but never used  no-unused-vars
+   35:9   warning  'drawsine1' is not defined               no-undef
+   38:10  warning  'drawsquarewv1' is not defined           no-undef
+   41:9   warning  'drawtraingwv1' is not defined           no-undef
+   44:9   warning  'drawsine2' is not defined               no-undef
+   50:9   warning  'drawtraingwv2' is not defined           no-undef
+   55:11  warning  'ampfng2' is defined but never used      no-unused-vars
+   58:9   warning  'drawsine2' is not defined               no-undef
+   64:9   warning  'drawtraingwv2' is not defined           no-undef
+   68:11  warning  'freqfng2' is defined but never used     no-unused-vars
+   71:9   warning  'drawsine2' is not defined               no-undef
+   77:9   warning  'drawtraingwv2' is not defined           no-undef
+  106:6   warning  'canvas' is not defined                  no-undef
+  107:18  warning  'canvas' is not defined                  no-undef
+  107:29  warning  'canvas' is not defined                  no-undef
+  109:6   warning  'ctx' is not defined                     no-undef
+  109:12  warning  'canvas' is not defined                  no-undef
+  111:6   warning  'ctx' is not defined                     no-undef
+  112:6   warning  'ctx' is not defined                     no-undef
+  112:25  warning  'canvas' is not defined                  no-undef
+  112:39  warning  'canvas' is not defined                  no-undef
+  115:6   warning  'drawGrid' is not defined                no-undef
+  115:15  warning  'ctx' is not defined                     no-undef
+  116:6   warning  'drawAxis' is not defined                no-undef
+  145:10  warning  'i' is already defined                   no-redeclare
+  152:6   warning  'ctx' is not defined                     no-undef
+  153:6   warning  'ctx' is not defined                     no-undef
+  154:6   warning  'ctx' is not defined                     no-undef
+  164:14  warning  'ctx' is not defined                     no-undef
+  166:14  warning  'ctx' is not defined                     no-undef
+  169:6   warning  'ctx' is not defined                     no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscope_triangwv.js
+   11:5   warning  'vmaxs' is defined but never used        no-unused-vars
+   17:10  warning  'posiy1chnge' is defined but never used  no-unused-vars
+   18:5   warning  'posy2' is not defined                   no-undef
+   21:9   warning  'drawsine1' is not defined               no-undef
+   24:10  warning  'drawsquarewv1' is not defined           no-undef
+   33:10  warning  'posix2chnge' is defined but never used  no-unused-vars
+   37:9   warning  'drawsine1' is not defined               no-undef
+   40:10  warning  'drawsquarewv1' is not defined           no-undef
+   46:9   warning  'drawsine2' is not defined               no-undef
+   49:9   warning  'drawsquarewv2' is not defined           no-undef
+   52:9   warning  'drawtraingwv2' is not defined           no-undef
+   58:10  warning  'ampfng1' is defined but never used      no-unused-vars
+   61:9   warning  'drawsine1' is not defined               no-undef
+   64:10  warning  'drawsquarewv1' is not defined           no-undef
+   71:10  warning  'freqfng1' is defined but never used     no-unused-vars
+   74:9   warning  'drawsine1' is not defined               no-undef
+   77:10  warning  'drawsquarewv1' is not defined           no-undef
+  111:5   warning  'canvas' is not defined                  no-undef
+  112:17  warning  'canvas' is not defined                  no-undef
+  112:28  warning  'canvas' is not defined                  no-undef
+  114:5   warning  'ctx' is not defined                     no-undef
+  114:11  warning  'canvas' is not defined                  no-undef
+  116:5   warning  'ctx' is not defined                     no-undef
+  117:5   warning  'ctx' is not defined                     no-undef
+  117:24  warning  'canvas' is not defined                  no-undef
+  117:38  warning  'canvas' is not defined                  no-undef
+  119:5   warning  'drawGrid' is not defined                no-undef
+  119:14  warning  'ctx' is not defined                     no-undef
+  120:5   warning  'drawAxis' is not defined                no-undef
+  143:9   warning  'x2' is assigned a value but never used  no-unused-vars
+  143:45  warning  'y2' is assigned a value but never used  no-unused-vars
+  162:9   warning  'i' is already defined                   no-redeclare
+  169:5   warning  'ctx' is not defined                     no-undef
+  170:5   warning  'ctx' is not defined                     no-undef
+  171:4   warning  'ctx' is not defined                     no-undef
+  172:9   warning  'p' is already defined                   no-redeclare
+  181:13  warning  'ctx' is not defined                     no-undef
+  183:13  warning  'ctx' is not defined                     no-undef
+  186:5   warning  'ctx' is not defined                     no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscope_triangwv2.js
+   12:5   warning  'vmaxs' is defined but never used        no-unused-vars
+   18:10  warning  'posiy2chnge' is defined but never used  no-unused-vars
+   22:9   warning  'drawsine2' is not defined               no-undef
+   25:9   warning  'drawsquarewv2' is not defined           no-undef
+   34:10  warning  'posix2chnge' is defined but never used  no-unused-vars
+   38:9   warning  'drawsine1' is not defined               no-undef
+   41:10  warning  'drawsquarewv1' is not defined           no-undef
+   44:9   warning  'drawtraingwv1' is not defined           no-undef
+   47:9   warning  'drawsine2' is not defined               no-undef
+   50:9   warning  'drawsquarewv2' is not defined           no-undef
+   59:10  warning  'ampfng2' is defined but never used      no-unused-vars
+   62:9   warning  'drawsine2' is not defined               no-undef
+   65:9   warning  'drawsquarewv2' is not defined           no-undef
+   72:10  warning  'freqfng2' is defined but never used     no-unused-vars
+   75:9   warning  'drawsine2' is not defined               no-undef
+   78:9   warning  'drawsquarewv2' is not defined           no-undef
+  112:5   warning  'canvas' is not defined                  no-undef
+  113:17  warning  'canvas' is not defined                  no-undef
+  113:28  warning  'canvas' is not defined                  no-undef
+  115:5   warning  'ctx' is not defined                     no-undef
+  115:11  warning  'canvas' is not defined                  no-undef
+  117:5   warning  'ctx' is not defined                     no-undef
+  118:5   warning  'ctx' is not defined                     no-undef
+  118:24  warning  'canvas' is not defined                  no-undef
+  118:38  warning  'canvas' is not defined                  no-undef
+  120:5   warning  'drawGrid' is not defined                no-undef
+  120:14  warning  'ctx' is not defined                     no-undef
+  121:5   warning  'drawAxis' is not defined                no-undef
+  144:9   warning  'x2' is assigned a value but never used  no-unused-vars
+  144:45  warning  'y2' is assigned a value but never used  no-unused-vars
+  163:9   warning  'i' is already defined                   no-redeclare
+  170:5   warning  'ctx' is not defined                     no-undef
+  171:5   warning  'ctx' is not defined                     no-undef
+  172:4   warning  'ctx' is not defined                     no-undef
+  173:9   warning  'p' is already defined                   no-redeclare
+  182:13  warning  'ctx' is not defined                     no-undef
+  184:13  warning  'ctx' is not defined                     no-undef
+  187:5   warning  'ctx' is not defined                     no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscopeboth.js
+   13:6   warning  'vmaxs' is defined but never used            no-unused-vars
+   16:11  warning  'posiy1chnge' is defined but never used      no-unused-vars
+   20:9   warning  'drawsine1' is not defined                   no-undef
+   23:10  warning  'drawsquarewv1' is not defined               no-undef
+   26:9   warning  'drawtraingwv1' is not defined               no-undef
+   29:9   warning  'drawsine2' is not defined                   no-undef
+   32:9   warning  'drawsquarewv2' is not defined               no-undef
+   35:9   warning  'drawtraingwv2' is not defined               no-undef
+   47:9   warning  'grndwvsin' is not defined                   no-undef
+   50:9   warning  'grndwvsq' is not defined                    no-undef
+   53:9   warning  'grndwvtri' is not defined                   no-undef
+   57:11  warning  'posiy2chnge' is defined but never used      no-unused-vars
+   61:9   warning  'drawsine1' is not defined                   no-undef
+   64:10  warning  'drawsquarewv1' is not defined               no-undef
+   67:9   warning  'drawtraingwv1' is not defined               no-undef
+   70:9   warning  'drawsine2' is not defined                   no-undef
+   73:9   warning  'drawsquarewv2' is not defined               no-undef
+   76:9   warning  'drawtraingwv2' is not defined               no-undef
+   88:9   warning  'grndwvsin' is not defined                   no-undef
+   91:9   warning  'grndwvsq' is not defined                    no-undef
+   94:9   warning  'grndwvtri' is not defined                   no-undef
+   99:11  warning  'posix2chnge' is defined but never used      no-unused-vars
+  102:10  warning  'drawsine1' is not defined                   no-undef
+  105:11  warning  'drawsquarewv1' is not defined               no-undef
+  108:10  warning  'drawtraingwv1' is not defined               no-undef
+  111:10  warning  'drawsine2' is not defined                   no-undef
+  114:10  warning  'drawsquarewv2' is not defined               no-undef
+  117:10  warning  'drawtraingwv2' is not defined               no-undef
+  120:10  warning  'grndwvsin' is not defined                   no-undef
+  123:10  warning  'grndwvsq' is not defined                    no-undef
+  126:10  warning  'grndwvtri' is not defined                   no-undef
+  138:9   warning  'grndwvsin' is not defined                   no-undef
+  141:9   warning  'grndwvsq' is not defined                    no-undef
+  144:9   warning  'grndwvtri' is not defined                   no-undef
+  148:11  warning  'ampfng1' is defined but never used          no-unused-vars
+  152:9   warning  'drawsine1' is not defined                   no-undef
+  155:10  warning  'drawsquarewv1' is not defined               no-undef
+  158:9   warning  'drawtraingwv1' is not defined               no-undef
+  171:11  warning  'freqfng1' is defined but never used         no-unused-vars
+  175:9   warning  'drawsine1' is not defined                   no-undef
+  178:10  warning  'drawsquarewv1' is not defined               no-undef
+  181:9   warning  'drawtraingwv1' is not defined               no-undef
+  194:11  warning  'ampfng2' is defined but never used          no-unused-vars
+  197:9   warning  'drawsine2' is not defined                   no-undef
+  200:9   warning  'drawsquarewv2' is not defined               no-undef
+  203:9   warning  'drawtraingwv2' is not defined               no-undef
+  216:11  warning  'freqfng2' is defined but never used         no-unused-vars
+  219:9   warning  'drawsine2' is not defined                   no-undef
+  222:9   warning  'drawsquarewv2' is not defined               no-undef
+  225:9   warning  'drawtraingwv2' is not defined               no-undef
+  240:6   warning  'canvas' is not defined                      no-undef
+  241:18  warning  'canvas' is not defined                      no-undef
+  241:29  warning  'canvas' is not defined                      no-undef
+  243:6   warning  'ctx' is not defined                         no-undef
+  243:12  warning  'canvas' is not defined                      no-undef
+  245:6   warning  'ctx' is not defined                         no-undef
+  246:6   warning  'ctx' is not defined                         no-undef
+  246:25  warning  'canvas' is not defined                      no-undef
+  246:39  warning  'canvas' is not defined                      no-undef
+  247:6   warning  'drawGrid' is not defined                    no-undef
+  247:15  warning  'ctx' is not defined                         no-undef
+  248:6   warning  'drawAxis' is not defined                    no-undef
+  255:59  warning  Unnecessary semicolon                        no-extra-semi
+  279:6   warning  'i' is already defined                       no-redeclare
+  286:2   warning  'ctx' is not defined                         no-undef
+  287:2   warning  'ctx' is not defined                         no-undef
+  288:2   warning  'ctx' is not defined                         no-undef
+  298:10  warning  'ctx' is not defined                         no-undef
+  300:10  warning  'ctx' is not defined                         no-undef
+  303:2   warning  'ctx' is not defined                         no-undef
+  312:6   warning  'tstop1' is assigned a value but never used  no-unused-vars
+  321:10  warning  'j' is already defined                       no-redeclare
+  321:13  warning  'x0' is already defined                      no-redeclare
+  321:17  warning  'y0' is already defined                      no-redeclare
+  321:21  warning  'xscale' is already defined                  no-redeclare
+  321:29  warning  'yscale' is already defined                  no-redeclare
+  328:6   warning  'ctx' is not defined                         no-undef
+  329:6   warning  'ctx' is not defined                         no-undef
+  330:6   warning  'ctx' is not defined                         no-undef
+  340:14  warning  'ctx' is not defined                         no-undef
+  342:14  warning  'ctx' is not defined                         no-undef
+  345:6   warning  'ctx' is not defined                         no-undef
+  353:6   warning  'canvas' is not defined                      no-undef
+  354:18  warning  'canvas' is not defined                      no-undef
+  354:29  warning  'canvas' is not defined                      no-undef
+  356:6   warning  'ctx' is not defined                         no-undef
+  356:12  warning  'canvas' is not defined                      no-undef
+  358:6   warning  'ctx' is not defined                         no-undef
+  359:6   warning  'ctx' is not defined                         no-undef
+  359:25  warning  'canvas' is not defined                      no-undef
+  359:39  warning  'canvas' is not defined                      no-undef
+  360:6   warning  'drawGrid' is not defined                    no-undef
+  360:15  warning  'ctx' is not defined                         no-undef
+  361:6   warning  'drawAxis' is not defined                    no-undef
+  368:59  warning  Unnecessary semicolon                        no-extra-semi
+  393:6   warning  'i' is already defined                       no-redeclare
+  400:2   warning  'ctx' is not defined                         no-undef
+  401:2   warning  'ctx' is not defined                         no-undef
+  402:2   warning  'ctx' is not defined                         no-undef
+  412:10  warning  'ctx' is not defined                         no-undef
+  414:10  warning  'ctx' is not defined                         no-undef
+  417:2   warning  'ctx' is not defined                         no-undef
+  422:10  warning  'dt' is already defined                      no-redeclare
+  422:14  warning  'tstart' is already defined                  no-redeclare
+  422:22  warning  'tstop' is already defined                   no-redeclare
+  436:10  warning  'j' is already defined                       no-redeclare
+  436:13  warning  'x0' is already defined                      no-redeclare
+  436:17  warning  'y0' is already defined                      no-redeclare
+  436:21  warning  'xscale' is already defined                  no-redeclare
+  436:29  warning  'yscale' is already defined                  no-redeclare
+  443:6   warning  'ctx' is not defined                         no-undef
+  444:6   warning  'ctx' is not defined                         no-undef
+  445:6   warning  'ctx' is not defined                         no-undef
+  455:14  warning  'ctx' is not defined                         no-undef
+  457:14  warning  'ctx' is not defined                         no-undef
+  460:6   warning  'ctx' is not defined                         no-undef
+  466:6   warning  'canvas' is not defined                      no-undef
+  467:18  warning  'canvas' is not defined                      no-undef
+  467:29  warning  'canvas' is not defined                      no-undef
+  469:6   warning  'ctx' is not defined                         no-undef
+  469:12  warning  'canvas' is not defined                      no-undef
+  471:6   warning  'ctx' is not defined                         no-undef
+  472:6   warning  'ctx' is not defined                         no-undef
+  472:25  warning  'canvas' is not defined                      no-undef
+  472:39  warning  'canvas' is not defined                      no-undef
+  473:6   warning  'drawGrid' is not defined                    no-undef
+  473:15  warning  'ctx' is not defined                         no-undef
+  474:6   warning  'drawAxis' is not defined                    no-undef
+  481:59  warning  Unnecessary semicolon                        no-extra-semi
+  511:6   warning  'i' is already defined                       no-redeclare
+  518:2   warning  'ctx' is not defined                         no-undef
+  519:2   warning  'ctx' is not defined                         no-undef
+  520:2   warning  'ctx' is not defined                         no-undef
+  521:6   warning  'p' is already defined                       no-redeclare
+  530:10  warning  'ctx' is not defined                         no-undef
+  532:10  warning  'ctx' is not defined                         no-undef
+  535:2   warning  'ctx' is not defined                         no-undef
+  540:10  warning  'dt' is already defined                      no-redeclare
+  540:14  warning  'tstart' is already defined                  no-redeclare
+  540:22  warning  'tstop' is already defined                   no-redeclare
+  550:14  warning  'p' is already defined                       no-redeclare
+  551:14  warning  'z' is already defined                       no-redeclare
+  556:10  warning  'j' is already defined                       no-redeclare
+  556:13  warning  'x0' is already defined                      no-redeclare
+  556:17  warning  'y0' is already defined                      no-redeclare
+  556:21  warning  'xscale' is already defined                  no-redeclare
+  556:29  warning  'yscale' is already defined                  no-redeclare
+  563:6   warning  'ctx' is not defined                         no-undef
+  564:6   warning  'ctx' is not defined                         no-undef
+  565:6   warning  'ctx' is not defined                         no-undef
+  575:14  warning  'ctx' is not defined                         no-undef
+  577:14  warning  'ctx' is not defined                         no-undef
+  580:6   warning  'ctx' is not defined                         no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscopegrnd.js
+   13:5   warning  'vmaxs' is defined but never used        no-unused-vars
+   16:10  warning  'posiy1chnge' is defined but never used  no-unused-vars
+   47:10  warning  'posiy2chnge' is defined but never used  no-unused-vars
+   80:10  warning  'posix2chnge' is defined but never used  no-unused-vars
+  120:10  warning  'ampfng1' is defined but never used      no-unused-vars
+  151:10  warning  'freqfng1' is defined but never used     no-unused-vars
+  181:10  warning  'ampfng2' is defined but never used      no-unused-vars
+  212:10  warning  'freqfng2' is defined but never used     no-unused-vars
+  213:5   warning  'frqfng2' is not defined                 no-undef
+  245:5   warning  'canvas' is not defined                  no-undef
+  246:17  warning  'canvas' is not defined                  no-undef
+  246:28  warning  'canvas' is not defined                  no-undef
+  248:5   warning  'ctx' is not defined                     no-undef
+  248:11  warning  'canvas' is not defined                  no-undef
+  250:5   warning  'ctx' is not defined                     no-undef
+  251:5   warning  'ctx' is not defined                     no-undef
+  251:24  warning  'canvas' is not defined                  no-undef
+  251:38  warning  'canvas' is not defined                  no-undef
+  252:5   warning  'drawGrid' is not defined                no-undef
+  252:14  warning  'ctx' is not defined                     no-undef
+  253:5   warning  'drawAxis' is not defined                no-undef
+  262:5   warning  'frqfng2' is not defined                 no-undef
+  284:5   warning  'i' is already defined                   no-redeclare
+  291:1   warning  'ctx' is not defined                     no-undef
+  292:1   warning  'ctx' is not defined                     no-undef
+  293:1   warning  'ctx' is not defined                     no-undef
+  303:9   warning  'ctx' is not defined                     no-undef
+  305:9   warning  'ctx' is not defined                     no-undef
+  308:1   warning  'ctx' is not defined                     no-undef
+  313:9   warning  'dt' is already defined                  no-redeclare
+  313:13  warning  'tstart' is already defined              no-redeclare
+  313:21  warning  'tstop' is already defined               no-redeclare
+  323:45  warning  'frqfng2' is not defined                 no-undef
+  326:9   warning  'j' is already defined                   no-redeclare
+  326:12  warning  'x0' is already defined                  no-redeclare
+  326:16  warning  'y0' is already defined                  no-redeclare
+  326:20  warning  'xscale' is already defined              no-redeclare
+  326:28  warning  'yscale' is already defined              no-redeclare
+  333:5   warning  'ctx' is not defined                     no-undef
+  334:5   warning  'ctx' is not defined                     no-undef
+  335:5   warning  'ctx' is not defined                     no-undef
+  345:13  warning  'ctx' is not defined                     no-undef
+  347:13  warning  'ctx' is not defined                     no-undef
+  350:5   warning  'ctx' is not defined                     no-undef
+  358:5   warning  'canvas' is not defined                  no-undef
+  359:17  warning  'canvas' is not defined                  no-undef
+  359:28  warning  'canvas' is not defined                  no-undef
+  361:5   warning  'ctx' is not defined                     no-undef
+  361:11  warning  'canvas' is not defined                  no-undef
+  363:5   warning  'ctx' is not defined                     no-undef
+  364:5   warning  'ctx' is not defined                     no-undef
+  364:24  warning  'canvas' is not defined                  no-undef
+  364:38  warning  'canvas' is not defined                  no-undef
+  365:5   warning  'drawGrid' is not defined                no-undef
+  365:14  warning  'ctx' is not defined                     no-undef
+  366:5   warning  'drawAxis' is not defined                no-undef
+  375:5   warning  'frqfng2' is not defined                 no-undef
+  394:56  warning  'phslsq' is not defined                  no-undef
+  398:5   warning  'i' is already defined                   no-redeclare
+  405:1   warning  'ctx' is not defined                     no-undef
+  406:1   warning  'ctx' is not defined                     no-undef
+  407:1   warning  'ctx' is not defined                     no-undef
+  417:9   warning  'ctx' is not defined                     no-undef
+  419:9   warning  'ctx' is not defined                     no-undef
+  422:1   warning  'ctx' is not defined                     no-undef
+  427:9   warning  'dt' is already defined                  no-redeclare
+  427:13  warning  'tstart' is already defined              no-redeclare
+  427:21  warning  'tstop' is already defined               no-redeclare
+  437:45  warning  'frqfng2' is not defined                 no-undef
+  441:9   warning  'j' is already defined                   no-redeclare
+  441:12  warning  'x0' is already defined                  no-redeclare
+  441:16  warning  'y0' is already defined                  no-redeclare
+  441:20  warning  'xscale' is already defined              no-redeclare
+  441:28  warning  'yscale' is already defined              no-redeclare
+  448:5   warning  'ctx' is not defined                     no-undef
+  449:5   warning  'ctx' is not defined                     no-undef
+  450:5   warning  'ctx' is not defined                     no-undef
+  460:13  warning  'ctx' is not defined                     no-undef
+  462:13  warning  'ctx' is not defined                     no-undef
+  465:5   warning  'ctx' is not defined                     no-undef
+  471:5   warning  'canvas' is not defined                  no-undef
+  472:17  warning  'canvas' is not defined                  no-undef
+  472:28  warning  'canvas' is not defined                  no-undef
+  474:5   warning  'ctx' is not defined                     no-undef
+  474:11  warning  'canvas' is not defined                  no-undef
+  476:5   warning  'ctx' is not defined                     no-undef
+  477:5   warning  'ctx' is not defined                     no-undef
+  477:24  warning  'canvas' is not defined                  no-undef
+  477:38  warning  'canvas' is not defined                  no-undef
+  478:5   warning  'drawGrid' is not defined                no-undef
+  478:14  warning  'ctx' is not defined                     no-undef
+  479:5   warning  'drawAxis' is not defined                no-undef
+  488:5   warning  'frqfng2' is not defined                 no-undef
+  516:5   warning  'i' is already defined                   no-redeclare
+  523:1   warning  'ctx' is not defined                     no-undef
+  524:1   warning  'ctx' is not defined                     no-undef
+  525:1   warning  'ctx' is not defined                     no-undef
+  526:5   warning  'p' is already defined                   no-redeclare
+  535:9   warning  'ctx' is not defined                     no-undef
+  537:9   warning  'ctx' is not defined                     no-undef
+  540:1   warning  'ctx' is not defined                     no-undef
+  545:9   warning  'dt' is already defined                  no-redeclare
+  545:13  warning  'tstart' is already defined              no-redeclare
+  545:21  warning  'tstop' is already defined               no-redeclare
+  555:13  warning  'p' is already defined                   no-redeclare
+  556:13  warning  'z' is already defined                   no-redeclare
+  561:9   warning  'j' is already defined                   no-redeclare
+  561:12  warning  'x0' is already defined                  no-redeclare
+  561:16  warning  'y0' is already defined                  no-redeclare
+  561:20  warning  'xscale' is already defined              no-redeclare
+  561:28  warning  'yscale' is already defined              no-redeclare
+  568:5   warning  'ctx' is not defined                     no-undef
+  569:5   warning  'ctx' is not defined                     no-undef
+  570:5   warning  'ctx' is not defined                     no-undef
+  580:13  warning  'ctx' is not defined                     no-undef
+  582:13  warning  'ctx' is not defined                     no-undef
+  585:5   warning  'ctx' is not defined                     no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/oscilloscopexymode.js
+   20:6   warning  'vmaxs' is defined but never used            no-unused-vars
+   23:11  warning  'posiy1chnge' is defined but never used      no-unused-vars
+   27:9   warning  'drawsine1' is not defined                   no-undef
+   30:10  warning  'drawsquarewv1' is not defined               no-undef
+   33:9   warning  'drawtraingwv1' is not defined               no-undef
+   36:9   warning  'drawsine2' is not defined                   no-undef
+   39:9   warning  'drawsquarewv2' is not defined               no-undef
+   42:9   warning  'drawtraingwv2' is not defined               no-undef
+   45:9   warning  'grndwvsin' is not defined                   no-undef
+   48:9   warning  'grndwvsq' is not defined                    no-undef
+   51:9   warning  'grndwvtri' is not defined                   no-undef
+   54:9   warning  'bothwvsin' is not defined                   no-undef
+   57:9   warning  'bothwvsq' is not defined                    no-undef
+   60:9   warning  'bothwvtri' is not defined                   no-undef
+   73:11  warning  'posiy2chnge' is defined but never used      no-unused-vars
+   77:9   warning  'drawsine1' is not defined                   no-undef
+   80:10  warning  'drawsquarewv1' is not defined               no-undef
+   83:9   warning  'drawtraingwv1' is not defined               no-undef
+   86:9   warning  'drawsine2' is not defined                   no-undef
+   89:9   warning  'drawsquarewv2' is not defined               no-undef
+   92:9   warning  'drawtraingwv2' is not defined               no-undef
+   95:9   warning  'bothwvsin' is not defined                   no-undef
+   98:9   warning  'bothwvsq' is not defined                    no-undef
+  101:9   warning  'bothwvtri' is not defined                   no-undef
+  104:9   warning  'grndwvsin' is not defined                   no-undef
+  107:9   warning  'grndwvsq' is not defined                    no-undef
+  110:9   warning  'grndwvtri' is not defined                   no-undef
+  124:11  warning  'posix2chnge' is defined but never used      no-unused-vars
+  127:10  warning  'drawsine1' is not defined                   no-undef
+  130:11  warning  'drawsquarewv1' is not defined               no-undef
+  133:10  warning  'drawtraingwv1' is not defined               no-undef
+  136:10  warning  'drawsine2' is not defined                   no-undef
+  139:10  warning  'drawsquarewv2' is not defined               no-undef
+  142:10  warning  'drawtraingwv2' is not defined               no-undef
+  145:10  warning  'grndwvsin' is not defined                   no-undef
+  148:10  warning  'grndwvsq' is not defined                    no-undef
+  151:10  warning  'grndwvtri' is not defined                   no-undef
+  154:9   warning  'bothwvsin' is not defined                   no-undef
+  157:9   warning  'bothwvsq' is not defined                    no-undef
+  160:9   warning  'bothwvtri' is not defined                   no-undef
+  163:9   warning  'grndwvsin' is not defined                   no-undef
+  166:9   warning  'grndwvsq' is not defined                    no-undef
+  169:9   warning  'grndwvtri' is not defined                   no-undef
+  182:11  warning  'ampfng1' is defined but never used          no-unused-vars
+  186:9   warning  'drawsine1' is not defined                   no-undef
+  189:10  warning  'drawsquarewv1' is not defined               no-undef
+  192:9   warning  'drawtraingwv1' is not defined               no-undef
+  195:9   warning  'bothwvsin' is not defined                   no-undef
+  198:9   warning  'bothwvsq' is not defined                    no-undef
+  201:9   warning  'bothwvtri' is not defined                   no-undef
+  214:11  warning  'freqfng1' is defined but never used         no-unused-vars
+  218:9   warning  'drawsine1' is not defined                   no-undef
+  221:10  warning  'drawsquarewv1' is not defined               no-undef
+  224:9   warning  'drawtraingwv1' is not defined               no-undef
+  228:9   warning  'bothwvsin' is not defined                   no-undef
+  231:9   warning  'bothwvsq' is not defined                    no-undef
+  234:9   warning  'bothwvtri' is not defined                   no-undef
+  246:11  warning  'ampfng2' is defined but never used          no-unused-vars
+  249:9   warning  'drawsine2' is not defined                   no-undef
+  252:9   warning  'drawsquarewv2' is not defined               no-undef
+  255:9   warning  'drawtraingwv2' is not defined               no-undef
+  258:9   warning  'bothwvsin' is not defined                   no-undef
+  261:9   warning  'bothwvsq' is not defined                    no-undef
+  264:9   warning  'bothwvtri' is not defined                   no-undef
+  277:11  warning  'freqfng2' is defined but never used         no-unused-vars
+  280:9   warning  'drawsine2' is not defined                   no-undef
+  283:9   warning  'drawsquarewv2' is not defined               no-undef
+  286:9   warning  'drawtraingwv2' is not defined               no-undef
+  289:10  warning  'bothwvsin' is not defined                   no-undef
+  292:10  warning  'bothwvsq' is not defined                    no-undef
+  295:10  warning  'bothwvtri' is not defined                   no-undef
+  311:6   warning  'canvas' is not defined                      no-undef
+  312:18  warning  'canvas' is not defined                      no-undef
+  312:29  warning  'canvas' is not defined                      no-undef
+  314:6   warning  'ctx' is not defined                         no-undef
+  314:12  warning  'canvas' is not defined                      no-undef
+  316:6   warning  'ctx' is not defined                         no-undef
+  317:6   warning  'ctx' is not defined                         no-undef
+  317:25  warning  'canvas' is not defined                      no-undef
+  317:39  warning  'canvas' is not defined                      no-undef
+  318:6   warning  'drawGrid' is not defined                    no-undef
+  318:15  warning  'ctx' is not defined                         no-undef
+  319:6   warning  'drawAxis' is not defined                    no-undef
+  326:59  warning  Unnecessary semicolon                        no-extra-semi
+  350:6   warning  'i' is already defined                       no-redeclare
+  350:35  warning  'xp' is defined but never used               no-unused-vars
+  357:2   warning  'ctx' is not defined                         no-undef
+  358:2   warning  'ctx' is not defined                         no-undef
+  359:2   warning  'ctx' is not defined                         no-undef
+  383:6   warning  'tstop1' is assigned a value but never used  no-unused-vars
+  392:10  warning  'j' is already defined                       no-redeclare
+  392:13  warning  'x0' is already defined                      no-redeclare
+  392:17  warning  'y0' is already defined                      no-redeclare
+  392:21  warning  'xscale' is already defined                  no-redeclare
+  392:37  warning  'xp1' is defined but never used              no-unused-vars
+  396:6   warning  'xscale' is assigned a value but never used  no-unused-vars
+  399:6   warning  'ctx' is not defined                         no-undef
+  400:6   warning  'ctx' is not defined                         no-undef
+  401:6   warning  'ctx' is not defined                         no-undef
+  411:14  warning  'ctx' is not defined                         no-undef
+  413:14  warning  'ctx' is not defined                         no-undef
+  416:6   warning  'ctx' is not defined                         no-undef
+  424:6   warning  'canvas' is not defined                      no-undef
+  425:18  warning  'canvas' is not defined                      no-undef
+  425:29  warning  'canvas' is not defined                      no-undef
+  427:6   warning  'ctx' is not defined                         no-undef
+  427:12  warning  'canvas' is not defined                      no-undef
+  429:6   warning  'ctx' is not defined                         no-undef
+  430:6   warning  'ctx' is not defined                         no-undef
+  430:25  warning  'canvas' is not defined                      no-undef
+  430:39  warning  'canvas' is not defined                      no-undef
+  431:6   warning  'drawGrid' is not defined                    no-undef
+  431:15  warning  'ctx' is not defined                         no-undef
+  432:6   warning  'drawAxis' is not defined                    no-undef
+  439:59  warning  Unnecessary semicolon                        no-extra-semi
+  464:6   warning  'i' is already defined                       no-redeclare
+  464:35  warning  'xp' is defined but never used               no-unused-vars
+  471:2   warning  'ctx' is not defined                         no-undef
+  472:2   warning  'ctx' is not defined                         no-undef
+  473:2   warning  'ctx' is not defined                         no-undef
+  493:10  warning  'dt' is already defined                      no-redeclare
+  493:14  warning  'tstart' is already defined                  no-redeclare
+  493:22  warning  'tstop' is already defined                   no-redeclare
+  507:10  warning  'j' is already defined                       no-redeclare
+  507:13  warning  'x0' is already defined                      no-redeclare
+  507:17  warning  'y0' is already defined                      no-redeclare
+  507:21  warning  'xscale' is already defined                  no-redeclare
+  507:37  warning  'xp1' is defined but never used              no-unused-vars
+  509:6   warning  'x0' is assigned a value but never used      no-unused-vars
+  511:6   warning  'xscale' is assigned a value but never used  no-unused-vars
+  514:6   warning  'ctx' is not defined                         no-undef
+  515:6   warning  'ctx' is not defined                         no-undef
+  516:6   warning  'ctx' is not defined                         no-undef
+  526:14  warning  'ctx' is not defined                         no-undef
+  528:14  warning  'ctx' is not defined                         no-undef
+  531:6   warning  'ctx' is not defined                         no-undef
+  537:6   warning  'canvas' is not defined                      no-undef
+  538:18  warning  'canvas' is not defined                      no-undef
+  538:29  warning  'canvas' is not defined                      no-undef
+  540:6   warning  'ctx' is not defined                         no-undef
+  540:12  warning  'canvas' is not defined                      no-undef
+  542:6   warning  'ctx' is not defined                         no-undef
+  543:6   warning  'ctx' is not defined                         no-undef
+  543:25  warning  'canvas' is not defined                      no-undef
+  543:39  warning  'canvas' is not defined                      no-undef
+  544:6   warning  'drawGrid' is not defined                    no-undef
+  544:15  warning  'ctx' is not defined                         no-undef
+  545:6   warning  'drawAxis' is not defined                    no-undef
+  552:59  warning  Unnecessary semicolon                        no-extra-semi
+  582:6   warning  'i' is already defined                       no-redeclare
+  582:35  warning  'xp' is defined but never used               no-unused-vars
+  589:2   warning  'ctx' is not defined                         no-undef
+  590:2   warning  'ctx' is not defined                         no-undef
+  591:2   warning  'ctx' is not defined                         no-undef
+  592:6   warning  'p' is already defined                       no-redeclare
+  611:10  warning  'dt' is already defined                      no-redeclare
+  611:14  warning  'tstart' is already defined                  no-redeclare
+  611:22  warning  'tstop' is already defined                   no-redeclare
+  621:14  warning  'p' is already defined                       no-redeclare
+  622:14  warning  'z' is already defined                       no-redeclare
+  627:10  warning  'j' is already defined                       no-redeclare
+  627:13  warning  'x0' is already defined                      no-redeclare
+  627:17  warning  'y0' is already defined                      no-redeclare
+  627:21  warning  'xscale' is already defined                  no-redeclare
+  627:37  warning  'xp1' is defined but never used              no-unused-vars
+  629:6   warning  'x0' is assigned a value but never used      no-unused-vars
+  631:6   warning  'xscale' is assigned a value but never used  no-unused-vars
+  634:6   warning  'ctx' is not defined                         no-undef
+  635:6   warning  'ctx' is not defined                         no-undef
+  636:6   warning  'ctx' is not defined                         no-undef
+  646:14  warning  'ctx' is not defined                         no-undef
+  648:14  warning  'ctx' is not defined                         no-undef
+  651:6   warning  'ctx' is not defined                         no-undef
+
+/home/runner/work/exp-oscilloscope-iitkgp/exp-oscilloscope-iitkgp/experiment/simulation/js/virtualc.js
+  35:10  warning  'v' is defined but never used         no-unused-vars
+  41:10  warning  'Root' is defined but never used      no-unused-vars
+  53:10  warning  'Power' is defined but never used     no-unused-vars
+  65:10  warning  'TrigFunc' is defined but never used  no-unused-vars
+  79:10  warning  'eqls' is defined but never used      no-unused-vars
+  91:10  warning  'calcul' is defined but never used    no-unused-vars
+  97:10  warning  'ok' is defined but never used        no-unused-vars
+
+✖ 1528 problems (1 error, 1527 warnings)
+  0 errors and 24 warnings potentially fixable with the `--fix` option.
+
