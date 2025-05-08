@@ -4,7 +4,7 @@
  */
 
 /*---------------- for function generator 2--------------------*/
-var flag;
+var flag_ch1, flag_ch2;
 var vp1;
 var posy1;
 var phsl;
@@ -19,13 +19,13 @@ function posiy1chnge() {
     
     posy1 = document.getElementById("positiony1").value;
     
-    if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-    if (flag == 2) {
+    if (flag_ch1 == 2) {
          drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
     
@@ -33,22 +33,22 @@ function posiy1chnge() {
 
 function posix2chnge() {
     phsl = document.getElementById("positionx").value;
-    if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-    if (flag == 2) {
+    if (flag_ch1 == 2) {
          drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
-    if (flag == 6) {
+    if (flag_ch2 == 6) {
         drawsine2();
     }
-   if (flag == 7) {
+   if (flag_ch2 == 7) {
         drawsquarewv2();
     }
-     if (flag == 8) {
+     if (flag_ch2 == 8) {
         drawtraingwv2();
     }
  
@@ -56,74 +56,89 @@ function posix2chnge() {
 
 function ampfng1() {
     vp1 = document.getElementById("amp-knob-fng1").value;
-    if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-    if (flag == 2) {
+    if (flag_ch1 == 2) {
          drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
-    if (flag == 5){
-        bothwvsin();
+
+    if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
     }
-    if (flag == 11){
-        bothwvsq();   
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-    if (flag == 12){
-        bothwvtri();
-    }
+
+    // if ((flag_ch1 == 1) && (flag_ch2 == 6)){
+    //     bothwvsin();
+    // }
+    // if ((flag_ch1 == 2) && (flag_ch2 == 7)){
+    //     bothwvsq();   
+    // }
+    // if ((flag_ch1 == 3) && (flag_ch2 == 8)){
+    //     bothwvtri();
+    // }
     
 }
 
 function freqfng1() {
     frqfng1 = document.getElementById("fq-knob-fng1").value;
-    if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-   if (flag == 2) {
+   if (flag_ch1 == 2) {
          drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
-    if (flag == 5){
-        bothwvsin();
+    if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
     }
-    if (flag == 11){
-        bothwvsq();   
-    }
-    if (flag == 12){
-        bothwvtri();
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
 }
 
 //----------------------------------------code for drawing sine wave--------------------------------------------------//
 function drawsine1() {
 
-    document.getElementById("chhn1").disabled = false;
-    document.getElementById("chhn2").disabled = false;
-    document.getElementById("dual").disabled = false;
-    document.getElementById("grnd").disabled = false;
-    document.getElementById("xymd").disabled = false;
-    document.getElementById("chhn1").style.display = "block";
-    document.getElementById("chhn2").style.display = "block";
-    document.getElementById("dual").style.display = "block";
-    document.getElementById("grnd").style.display = "block";
-    document.getElementById("xymd").style.display = "block";
+    // document.getElementById("chhn1").disabled = false;
+    // document.getElementById("chhn2").disabled = false;
+    // document.getElementById("dual").disabled = false;
+    // document.getElementById("grnd").disabled = false;
+    // document.getElementById("xymd").disabled = false;
+    // document.getElementById("chhn1").style.display = "block";
+    // document.getElementById("chhn2").style.display = "block";
+    // document.getElementById("dual").style.display = "block";
+    // document.getElementById("grnd").style.display = "block";
+    // document.getElementById("xymd").style.display = "block";
 
-    document.getElementById("chhn1sq").style.display = "none";
-    document.getElementById("chhn2sq").style.display = "none";
-    document.getElementById("dualsq").style.display = "none";
-    document.getElementById("grndsq").style.display = "none";
-    document.getElementById("xymdsq").style.display = "none";
+    // document.getElementById("chhn1sq").style.display = "none";
+    // document.getElementById("chhn2sq").style.display = "none";
+    // document.getElementById("dualsq").style.display = "none";
+    // document.getElementById("grndsq").style.display = "none";
+    // document.getElementById("xymdsq").style.display = "none";
 
-    document.getElementById("chhn1tr").style.display = "none";
-    document.getElementById("chhn2tr").style.display = "none";
-    document.getElementById("dualtr").style.display = "none";
-    document.getElementById("grndtr").style.display = "none";
-    document.getElementById("xymdtr").style.display = "none";
+    // document.getElementById("chhn1tr").style.display = "none";
+    // document.getElementById("chhn2tr").style.display = "none";
+    // document.getElementById("dualtr").style.display = "none";
+    // document.getElementById("grndtr").style.display = "none";
+    // document.getElementById("xymdtr").style.display = "none";
     
     canvas = document.getElementById("mycanvas");
     if (null == canvas || !canvas.getContext)
@@ -151,7 +166,8 @@ function sinwv1() {
 
     var x = new Array(), y = new Array();  // x,y plotting variables
     var dt, tstart, tstop;             // time variables
-    flag = 1;
+    flag_ch1 = 1;
+    
     // define plot paramaters
     tstart = 0; //in sec
     tstop = tmaxs;
