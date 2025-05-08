@@ -2,7 +2,7 @@
  Created on : 25 aug, 2021
  Author     : Sukriti Dhang
  */
-var flag;
+var flag_ch1,flag_ch2;
 var vp;
 var  posy1;
 var phsl;
@@ -17,13 +17,13 @@ var tmaxs;// = (document.getElementById("fq-knob").value )* Math.pow(10, -3);// 
 function posiy1chnge() {
     posy2 = document.getElementById("positiony1").value;
     
-    if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-    if (flag == 2) {
+    if (flag_ch1 == 2) {
          drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
 
@@ -33,22 +33,22 @@ function posiy1chnge() {
 function posix2chnge() {
     phsl = document.getElementById("positionx").value;
 	
-    if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-    if (flag == 2) {
+    if (flag_ch1 == 2) {
          drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
-    if (flag == 6) {
+    if (flag_ch2 == 6) {
         drawsine2();
     }
-   if (flag == 7) {
+   if (flag_ch2 == 7) {
         drawsquarewv2();
     }
-     if (flag == 8) {
+     if (flag_ch2 == 8) {
         drawtraingwv2();
     }
 
@@ -57,26 +57,26 @@ function posix2chnge() {
 
 function ampfng1() {
     vp = document.getElementById("amp-knob-fng1").value;
-    if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-   if (flag == 2) {
+   if (flag_ch1 == 2) {
          drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
 }
 
 function freqfng1() {
     frqfng = document.getElementById("fq-knob-fng1").value;
-    if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-   if (flag == 2) {
+   if (flag_ch1 == 2) {
          drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
    
@@ -85,28 +85,33 @@ function freqfng1() {
 //----------------------------------------code for drawing trianle output--------------------------------------------------//
 function drawtraingwv1() {
 
-    document.getElementById("chhn1").style.display = "none";
-    document.getElementById("chhn2").style.display = "none";
-    document.getElementById("dual").style.display = "none";
-    document.getElementById("grnd").style.display = "none";
-    document.getElementById("xymd").style.display = "none";
+    // document.getElementById("chhn1").style.display = "block";
+    // document.getElementById("chhn2").style.display = "block";
+    // document.getElementById("dual").style.display = "block";
+    // document.getElementById("grnd").style.display = "block";
+    // document.getElementById("xymd").style.display = "block";
+    // document.getElementById("chhn1").disabled = false;
+    // document.getElementById("chhn2").disabled = false;
+    // document.getElementById("dual").disabled = false;
+    // document.getElementById("grnd").disabled = false;
+    // document.getElementById("xymd").disabled = false;
 
-    document.getElementById("chhn1sq").style.display = "none";
-    document.getElementById("chhn2sq").style.display = "none";
-    document.getElementById("dualsq").style.display = "none";
-    document.getElementById("grndsq").style.display = "none";
-    document.getElementById("xymdsq").style.display = "none";
+    // document.getElementById("chhn1sq").style.display = "none";
+    // document.getElementById("chhn2sq").style.display = "none";
+    // document.getElementById("dualsq").style.display = "none";
+    // document.getElementById("grndsq").style.display = "none";
+    // document.getElementById("xymdsq").style.display = "none";
 
-    document.getElementById("chhn1tr").disabled = false;
-    document.getElementById("chhn2tr").disabled = false;
-    document.getElementById("dualtr").disabled = false;
-    document.getElementById("grndtr").disabled = false;
-    document.getElementById("xymdtr").disabled = false;
-    document.getElementById("chhn1tr").style.display = "block";
-    document.getElementById("chhn2tr").style.display = "block";
-    document.getElementById("dualtr").style.display = "block";
-    document.getElementById("grndtr").style.display = "block";
-    document.getElementById("xymdtr").style.display = "block";
+    // document.getElementById("chhn1tr").disabled = false;
+    // document.getElementById("chhn2tr").disabled = false;
+    // document.getElementById("dualtr").disabled = false;
+    // document.getElementById("grndtr").disabled = false;
+    // document.getElementById("xymdtr").disabled = false;
+    // document.getElementById("chhn1tr").style.display = "block";
+    // document.getElementById("chhn2tr").style.display = "block";
+    // document.getElementById("dualtr").style.display = "block";
+    // document.getElementById("grndtr").style.display = "block";
+    // document.getElementById("xymdtr").style.display = "block";
 
     canvas = document.getElementById("mycanvas");
     if (null == canvas || !canvas.getContext)
@@ -142,7 +147,7 @@ function triwv1() {
     var dt, tstart, tstop;             // time variables
     var x2 = new Array(), y1 = new Array(), y2 = new Array();
     var i;
-    flag = 3;
+    flag_ch1 = 3;
     // define plot paramaters
     tstart = 0;//-tmaxs; //in sec
     tstop = tmaxs;

@@ -1,9 +1,11 @@
 /*  Document Name: oscilloscope_axis.js
  Created on :24 aug, 2021
  Author     : Sukriti Dhang
+ Modified on : 05 Aug 2025
+ Author      :Prakriti Dhang
  */
 var canvas, ctx;
-var flag;
+var flag_ch1,flag_ch2;
 var axes = {};
 var vmaxs;  //in volt
 var tmaxs; // in msec  0.001; //in sec
@@ -24,17 +26,17 @@ function mainswt() {
         document.getElementById("grnd").disabled = true;
         document.getElementById("xymd").disabled = true;
 
-        document.getElementById("chhn1sq").disabled = true;
-        document.getElementById("chhn2sq").disabled = true;
-        document.getElementById("dualsq").disabled = true;
-        document.getElementById("grndsq").disabled = true;
-        document.getElementById("xymdsq").disabled = true;
+        // document.getElementById("chhn1sq").disabled = true;
+        // document.getElementById("chhn2sq").disabled = true;
+        // document.getElementById("dualsq").disabled = true;
+        // document.getElementById("grndsq").disabled = true;
+        // document.getElementById("xymdsq").disabled = true;
 
-        document.getElementById("chhn1tr").disabled = true;
-        document.getElementById("chhn2tr").disabled = true;
-        document.getElementById("dualtr").disabled = true;
-        document.getElementById("grndtr").disabled = true;
-        document.getElementById("xymdtr").disabled = true;
+        // document.getElementById("chhn1tr").disabled = true;
+        // document.getElementById("chhn2tr").disabled = true;
+        // document.getElementById("dualtr").disabled = true;
+        // document.getElementById("grndtr").disabled = true;
+        // document.getElementById("xymdtr").disabled = true;
 
        // document.getElementById("resistor").disabled=false;
        // document.getElementById("resistor").value='0';
@@ -57,6 +59,16 @@ function mainswt() {
         document.getElementById("sinecrv2").disabled = false;
         document.getElementById("squarewave2").disabled = false;
         document.getElementById("triagwave2").disabled = false;
+        document.getElementById("chhn1").disabled = false;
+        document.getElementById("chhn2").disabled = false;
+        document.getElementById("dual").disabled = false;
+        document.getElementById("grnd").disabled = false;
+        document.getElementById("xymd").disabled = false;
+        document.getElementById("chhn1").style.display = "block";
+        document.getElementById("chhn2").style.display = "block";
+        document.getElementById("dual").style.display = "block";
+        document.getElementById("grnd").style.display = "block";
+        document.getElementById("xymd").style.display = "block";
        
        // document.getElementById("resistor").disabled=true;
         
@@ -73,10 +85,10 @@ function amp1pdiv()
      voltperdiv = document.getElementById("amp-knob1").value;
   vmaxs = parseFloat(voltperdiv)*4;//volt 
 
-    if (flag == 1) {
+    if (flag_ch1== 1  ) {
         drawsine();
     }
-     if (flag == 2) {
+     if (flag_ch1 == 2) {
         drawsquarewv();
     }
 
@@ -91,10 +103,10 @@ function amp1pdiv()
 function timepdiv() {
     timeperdiv = document.getElementById("fq-knob").value ;
 	tmaxs =parseFloat(timeperdiv)*10*Math.pow(10,-3); //1sec
-   if (flag == 1) {
+   if (flag_ch1 == 1) {
         drawsine();
     }
-    if (flag == 2) {
+    if (flag_ch1 == 2) {
         drawsquarewv();
     }
 if(flag==3){
@@ -124,50 +136,80 @@ function drawAxis() {
     axes.xscale = (canvas.width) / ( tmaxs); 	// x pix per s//260000
    
     axes.N = 101;
-     if(flag==1){
+     if(flag_ch1==1 ){
           axes.yscale = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
      }
-     if(flag==2){
+     if(flag_ch1==2){
         axes.yscale = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
     }
-    if(flag==3){
+    if(flag_ch1==3){
         axes.yscale = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
     }
-     if(flag==6){
+     if(flag_ch2==6){
          axes.yscale = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
      }
-     if(flag==7){
+     if(flag_ch2==7 ){
         axes.yscale = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
     }
-    if(flag==8){
+    if(flag_ch2==8){
         axes.yscale = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
     }
-    // both waveform display//
-    if(flag==5){
+    // both waveform display same wave from//
+    if((flag_ch1==1) && (flag_ch2==6) ){
          axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
          axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
      }
-     if(flag==11){
+     if((flag_ch1==2) && (flag_ch2==7) ){
         axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
         axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
     }
-    if(flag==12){
+    if((flag_ch1==3) && (flag_ch2==8) ){
         axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
         axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
     }
+// different waveform from channel 1 and  channel 2
+
+if((flag_ch1==1) && (flag_ch2==7) ){
+    axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+    axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+}
+if((flag_ch1==1) && (flag_ch2==8) ){
+   axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+   axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+}
+if((flag_ch1==2) && (flag_ch2==6) ){
+   axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+   axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+}
+if((flag_ch1==2) && (flag_ch2==8) ){
+    axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+    axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+ }
+ 
+ if((flag_ch1==3) && (flag_ch2==6) ){
+    axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+    axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+ }
+ if((flag_ch1==3) && (flag_ch2==7) ){
+     axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+     axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+  }
+  
+
+
     // xy mode waveform display//
-    if(flag==13){
-        axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
-        axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
-    }
-    if(flag==14){
-       axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
-       axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
-   }
-   if(flag==15){
-       axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
-       axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
-   }
+//     if(flag_ch1 === 1 && flag_ch2 === 6){
+//         axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+//         axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+//     }
+//     if(flag_ch1 === 2 && flag_ch2 === 7){
+//        axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+//        axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+//    }
+//    if(flag_ch1 === 3 && flag_ch2 === 8){
+//        axes.yscale1 = (canvas.height) / (2 * vmaxs1);    // y pix per V //87.5
+//        axes.yscale2 = (canvas.height) / (2 * vmaxs2);    // y pix per V //87.5
+//    }
 
     axes.doNegativeX = true;
     ctx.lineWidth = 0.5;
@@ -280,114 +322,235 @@ function drawHorizontalAxisTicks() {
 }
 
 //------------------sine wave  channel button ------------------------------//
+
 function chnlo(){
-	
+    if (flag_ch1===1 || flag_ch1== 6){
     drawsine1();
-  // drawsquarewv1();
-   //drawtraingwv1();
+
+}
+   else if (flag_ch1===2){drawsquarewv1();}
+   else if (flag_ch1===3){drawtraingwv1();}
 }
 
 function chnlt(){
-	
-    drawsine2();
-  //drawsquarewv2();
-  // drawtraingwv2();
+    
+   if (flag_ch2===6 ){
+       drawsine2();}
+    else if (flag_ch2===7 || flag_ch2=== 2){drawsquarewv2();}
+    else if (flag_ch2===8){drawtraingwv2();}
       
 }
+function bthd() {
+    currentMode ="both";
+if (flag_ch1 === 1 && flag_ch2 === 6) {
+   bothwvsin();
+} else if (flag_ch1 === 2 && flag_ch2 === 7) {
+   bothwvsq();
+} else if (flag_ch1 === 3 && flag_ch2 === 8) {
+   bothwvtri();
 
-function bthd(){
-	
-    bothwvsin();
-  //  bothwvsq();
-  //  bothwvtri();
+} 
+else if (flag_ch1 === 1 && flag_ch2 === 7) {
+    drawsinesquare();
+    
+ } 
+ else if (flag_ch1 === 1 && flag_ch2 === 8) {
+    drawsinetri();
+    
+ } 
 
+ else if (flag_ch1 === 2 && flag_ch2 === 6) {
+    drawsquaresine();
+    
+ } 
+ else if (flag_ch1 === 2 && flag_ch2 === 8) {
+    drawsquaretri();
+    
+ } 
+ else if (flag_ch1 === 3 && flag_ch2 === 6) {
+    drawtrisine();
+    
+ } 
+ else if (flag_ch1 === 3 && flag_ch2 === 7) {
+    drawtrisquare();
+    
+ } 
+
+else {
+   alert("Please select compatible waveforms on both channels first.");
 }
+}
+
+// function chnlo(){
+	
+//     drawsine1();
+
+// }
+
+// function chnlt(){
+	
+//     drawsine2();
+ 
+      
+// }
+
+// function bthd(){
+	
+//     bothwvsin();
   
-  function grnds(){
-      grndwvsin();
-    //grndwvsq();
-   // grndwvtri();
-}
 
-function oscilloxymode(){
+// }
+  
+ function grnds(){
+    currentMode ="ground";
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
+        grndwvsin();
+     } else if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } else if (flag_ch1 === 3 && flag_ch2 === 8) {
+        grndwvtri();
+     
+     }  
+    else if (flag_ch1 === 1 && flag_ch2 === 7) {
+        grndwvsinsq();
+     } 
+     else if (flag_ch1 === 1 && flag_ch2 === 8) {
+        grndwvsinetri();
+     } 
+     else  if (flag_ch1 === 2 && flag_ch2 === 6) {
+        grndwvsqsine();
+     
+     }  
+     else if (flag_ch1 === 2 && flag_ch2 === 8) {
+        grndwvsqtri();
+     
+     }  
+     else if (flag_ch1 === 3 && flag_ch2 === 6) {
+        grndwvtrisine();
+     
+     }  
+     else if (flag_ch1 === 3 && flag_ch2 === 7) {
+        grndwvtrisq();
+     
+     }  
+     
+   }
+
+   function oscilloxymode(){
+    currentMode ="xymode";
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
+        xywvsin();
+     } else if (flag_ch1 === 2 && flag_ch2 === 7) {
+        xywvsq(); 
+     } else if (flag_ch1 === 3 && flag_ch2 === 8) {
+        xywvtri();
+     
+     }  
+     else if(flag_ch1 === 1 && flag_ch2 === 7){
+        xysinesquare();
+     }
+     else if(flag_ch1 === 1 && flag_ch2 === 8){
+        xysinestri();
+     }
+     else if(flag_ch1 === 2 && flag_ch2 === 6){
+        xysquaresine();
+     }
+     else if(flag_ch1 === 2 && flag_ch2 === 8){
+        xysquaretri();
+     }
+     else if(flag_ch1 === 3 && flag_ch2 === 6){
+        xytrisine();
+     }
+     else if(flag_ch1 === 3 && flag_ch2 === 7){
+        xytrisquare();
+     }
+    //    
+      
+    }
+
+// function oscilloxymode(){
 	
-    xywvsin();
-  //xywvsq(); 
-   // xywvtri();
-}
-//------------------square wave  channel button ------------------------------//
-function chnlosq(){
+//     xywvsin();
+  
+// }
+// //------------------square wave  channel button ------------------------------//
+// function chnlosq(){
 	
-    drawsquarewv1();
+//     drawsquarewv1();
    
-}
+// }
 
-function chnltsq(){
+// function chnltsq(){
 	
-   drawsquarewv2();
+//    drawsquarewv2();
   
       
-}
+// }
 
-function bthdsq(){
+// function bthdsq(){
 	
-    bothwvsq();
+//     bothwvsq();
 
-}
+// }
   
-  function grndssq(){
-      grndwvsq();
+//   function grndssq(){
+//       grndwvsq();
    
-}
+// }
 
-function oscilloxymodesq(){
+// function oscilloxymodesq(){
 	
-    xywvsq(); 
+//     xywvsq(); 
   
-}
+// }
 
-//------------------triangle  wave  channel button ------------------------------//
-function chnlotr(){
+// //------------------triangle  wave  channel button ------------------------------//
+// function chnlotr(){
 	
-    drawtraingwv1();
-}
+//     drawtraingwv1();
+// }
 
-function chnlttr(){
+// function chnlttr(){
 	
-    drawtraingwv2();
+//     drawtraingwv2();
       
-}
+// }
 
-function bthdtr(){
+// function bthdtr(){
 	
-    bothwvtri();
+//     bothwvtri();
 
-}
+// }
   
-  function grndstr(){
-      grndwvtri();
-}
+//   function grndstr(){
+//       grndwvtri();
+// }
 
-function oscilloxymodetr(){
+// function oscilloxymodetr(){
 	
-     xywvtri();
-}
+//      xywvtri();
+// }
 
 /************************************* flag details ***************************************/
-//  flag=1;     sine wave 1
-//  flag=2;     square wave 1
-//  flag=3;     triangular wave 1
-//  flag=4;     ground sine wave (1 and 2)
-//  flag=5;     both sine wave
-//  flag=6;     sine wave 2
-//  flag=7;     square wave 2
-//  flag=8;     triangular wave 1
-//  flag=9;     ground square wave (1 and 2)
-//  flag=10;    gorund triangular wave (1 and 2)
-//  flag=11;    both square wave
-//  flag=12;    both triangular wave
-//  flag=13;    xy sine wave
-//  flag=14;    xy square wave
-//  flag=15;    xy triangular wave
+//  flag_ch1=1;     sine wave 1
+ //  flag_ch1=2;     square wave 1
+ //  flag_ch1=3;     triangular wave 1
+ //  flag_ch2=6;     sine wave 2
+ //  flag_ch2=7;     square wave 2
+ //  flag_ch2=8;     triangular wave 2
+
+  //  flag_ch1 === 1 && flag_ch2 === 6     both sine wave
+ //  flag_ch1 === 2 && flag_ch2 === 7    both square wave
+ //  flag_ch1 === 3 && flag_ch2 === 8    both triangular wave
+
+   //  flag_ch1 === 1 && flag_ch2 === 7     both sine-squarewave
+  //  flag_ch1 === 1 && flag_ch2 === 8     both sine-triangle wave
+
+ //  flag_ch1 === 2 && flag_ch2 === 6     both square -sine wave 
+  //  flag_ch1 === 2 && flag_ch2 === 8     both square- triangle wave
+
+   //  flag_ch1 === 3 && flag_ch2 === 6     both Tri-sinewave
+  //  flag_ch1 === 3 && flag_ch2 === 7     both Tri-square wave
+
 /******************************** flag details ends here **********************************/
 
