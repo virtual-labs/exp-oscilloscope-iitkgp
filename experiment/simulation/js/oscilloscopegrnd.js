@@ -4,7 +4,7 @@
  */
 
 
-var flag;
+var flag_ch1, flag_ch2;
 var vp1,vp2;
 var posy1, posy2;
 var phsl;
@@ -15,6 +15,16 @@ var tmaxs;// in msec  0.001; //in sec
 
 function posiy1chnge() {
     posy1 = document.getElementById("positiony1").value;
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
+        grndwvsin();
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
+        grndwvtri();
+     
+     }  
    /* if (flag == 1) {
         drawsine1();
     }
@@ -24,15 +34,15 @@ function posiy1chnge() {
     if (flag == 3) {
         drawtraingwv1();
     }*/
-    if (flag == 4){
-        grndwvsin();
-    }
-    if (flag == 9){
-        grndwvsq();   
-    }
-    if (flag == 10){
-        grndwvtri();
-    }
+    // if (flag == 4){
+    //     grndwvsin();
+    // }
+    // if (flag == 9){
+    //     grndwvsq();   
+    // }
+    // if (flag == 10){
+    //     grndwvtri();
+    // }
    /* if (flag == 5){
         bothwvsin();
     }
@@ -56,15 +66,16 @@ function posiy2chnge() {
      if (flag == 8) {
         drawtraingwv2();
     }*/
-    if (flag == 4){
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
-    }
-    if (flag == 9){
-        grndwvsq();   
-    }
-    if (flag == 10){
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
         grndwvtri();
-    }
+     
+     }  
     /*if (flag == 5){
         bothwvsin();
     }
@@ -97,15 +108,16 @@ function posix2chnge() {
      if (flag == 8) {
         drawtraingwv2();
     }*/
-    if (flag == 4){
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
-    }
-    if (flag == 9){
-        grndwvsq();   
-    }
-    if (flag == 10){
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
         grndwvtri();
-    }
+     
+     }  
     /*if (flag == 5){
         bothwvsin();
     }
@@ -128,15 +140,16 @@ function ampfng1() {
     if (flag == 3) {
         drawtraingwv1();
     }*/
-    if (flag == 4){
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
-    }
-    if (flag == 9){
-        grndwvsq();   
-    }
-    if (flag == 10){
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
         grndwvtri();
-    }
+     
+     }  
   /*  if (flag == 5){
         bothwvsin();
     }
@@ -159,15 +172,16 @@ function freqfng1() {
     if (flag == 3) {
         drawtraingwv1();
     }*/
-    if (flag == 4){
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
-    }
-    if (flag == 9){
-        grndwvsq();   
-    }
-    if (flag == 10){
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
         grndwvtri();
-    }
+     
+     }  
     /*if (flag == 5){
         bothwvsin();
     }
@@ -189,15 +203,16 @@ function ampfng2() {
      if (flag == 8) {
         drawtraingwv2();
     }*/
-    if (flag == 4){
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
-    }
-    if (flag == 9){
-        grndwvsq();   
-    }
-    if (flag == 10){
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
         grndwvtri();
-    }
+     
+     }  
   /*  if (flag == 5){
         bothwvsin();
     }
@@ -220,15 +235,16 @@ function freqfng2() {
      if (flag == 8) {
         drawtraingwv2();
     }*/
-    if (flag == 4){
+    if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
-    }
-    if (flag == 9){
-        grndwvsq();   
-    }
-    if (flag == 10){
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
         grndwvtri();
-    }
+     
+     }  
   /*  if (flag == 5){
         bothwvsin();
     }
@@ -269,7 +285,7 @@ function sinesinegrnd(){
 
 var x = new Array(), y = new Array();  // x,y plotting variables
 var dt, tstart, tstop;             // time variables
-flag = 4;
+//flag = 4;
 // define plot paramaters
 tstart = 0; //in sec
 tstop = tmaxs;
@@ -382,7 +398,7 @@ function squaresqrgrnd(){
 
 var x = new Array(), y = new Array(),ys = new Array();  // x,y plotting variables
 var dt, tstart, tstop;             // time variables
-flag = 9;
+//flag = 9;
 // define plot paramaters
 tstart = 0; //in sec
 tstop = tmaxs;
@@ -498,7 +514,7 @@ function triangtrigrnd(){
 
 var x = new Array(), y = new Array(),y1 = new Array();  // x,y plotting variables
 var dt, tstart, tstop;             // time variables
-flag = 10;
+//flag = 10;
 // define plot paramaters
 tstart = 0; //in sec
 tstop = tmaxs;
