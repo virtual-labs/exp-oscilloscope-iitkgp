@@ -115,6 +115,11 @@ function freqfng1() {
 }
 
 //----------------------------------------code for drawing sine wave--------------------------------------------------//
+// document.addEventListener("DOMContentLoaded", function () {
+//     const button = document.getElementById("sinecrv");
+//     button.addEventListener("click", drawsine1);
+// });
+
 function drawsine1() {
 
     // document.getElementById("chhn1").disabled = false;
@@ -140,16 +145,15 @@ function drawsine1() {
     // document.getElementById("grndtr").style.display = "none";
     // document.getElementById("xymdtr").style.display = "none";
     
-    canvas = document.getElementById("mycanvas");
+    const canvas = document.getElementById("mycanvas");
     if (null == canvas || !canvas.getContext)
         return;
-    ctx = canvas.getContext("2d");
+    const ctx = canvas.getContext("2d");
     // fill canvas
     ctx.fillStyle = "white";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    
-    
+
     drawGrid(ctx);
     drawAxis();
     sinwv1();

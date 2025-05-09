@@ -322,9 +322,9 @@ function drawHorizontalAxisTicks() {
 }
 
 //------------------sine wave  channel button ------------------------------//
-
+let currentMode;
 function chnlo(){
-    if (flag_ch1===1 || flag_ch1== 6){
+    if (flag_ch1===1){
     drawsine1();
 
 }
@@ -336,7 +336,7 @@ function chnlt(){
     
    if (flag_ch2===6 ){
        drawsine2();}
-    else if (flag_ch2===7 || flag_ch2=== 2){drawsquarewv2();}
+    else if (flag_ch2===7 ){drawsquarewv2();}
     else if (flag_ch2===8){drawtraingwv2();}
       
 }
