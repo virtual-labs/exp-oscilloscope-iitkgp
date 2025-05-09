@@ -24,33 +24,8 @@ function posiy1chnge() {
     if (flag_ch1 == 3) {
         drawtraingwv1();
     }
-    if (flag_ch2 == 6) {
-        drawsine2();
-    }
-    if (flag_ch2 == 7) {
-        drawsquarewv2();
-    }
-    if (flag_ch2 == 8) {
-        drawtraingwv2();
-    }
-    if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
-        drawsinesquare();
-    }
-    if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
-        drawsinetri();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 6)) { //
-        drawsquaresine();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
-        drawsquaretri();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
-        drawtrisine();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
-        drawtrisquare();
-    }
+   
+    
 
     if(currentMode === "ground"){ 
         if (flag_ch1 === 1 && flag_ch2 === 7) {
@@ -81,6 +56,24 @@ function posiy1chnge() {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
         if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
+        if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
+            drawsinesquare();
+        }
+        if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
+            drawsinetri();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 6)) { //
+            drawsquaresine();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
+            drawsquaretri();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
+            drawtrisine();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
+            drawtrisquare();
+        }
     }
 
     if (currentMode === "xymode") {
@@ -96,15 +89,7 @@ function posiy1chnge() {
 function posiy2chnge() {
     posy2 = document.getElementById("positiony2").value;
 
-    if (flag_ch1 == 1) {
-        drawsine1();
-    }
-    if (flag_ch1 == 2) {
-        drawsquarewv1();
-    }
-    if (flag_ch1 == 3) {
-        drawtraingwv1();
-    }
+    
     if (flag_ch2 == 6) {
         drawsine2();
     }
@@ -114,28 +99,29 @@ function posiy2chnge() {
     if (flag_ch2 == 8) {
         drawtraingwv2();
     }
-    if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
-        drawsinesquare();
-    }
-    if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
-        drawsinetri();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
-        drawsquaresine();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
-        drawsquaretri();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
-        drawtrisine();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
-        drawtrisquare();
-    }
+   
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
         if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
+        if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
+            drawsinesquare();
+        }
+        if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
+            drawsinetri();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
+            drawsquaresine();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
+            drawsquaretri();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
+            drawtrisine();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
+            drawtrisquare();
+        }
     }
 
     if (currentMode === "xymode") {
@@ -198,28 +184,29 @@ function posix2chnge() {
     if (flag_ch2 == 8) {
         drawtraingwv2();
     }
-    if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
-        drawsinesquare();
-    }
-    if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
-        drawsinetri();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
-        drawsquaresine();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
-        drawsquaretri();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
-        drawtrisine();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
-        drawtrisquare();
-    }
+   
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
         if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
+        if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
+            drawsinesquare();
+        }
+        if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
+            drawsinetri();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
+            drawsquaresine();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
+            drawsquaretri();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
+            drawtrisine();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
+            drawtrisquare();
+        }
     }
 
     if (currentMode === "xymode") {
@@ -277,28 +264,29 @@ function ampfng1() {
         drawtraingwv1();
     }
 
-    if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
-        drawsinesquare();
-    }
-    if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
-        drawsinetri();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
-        drawsquaresine();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
-        drawsquaretri();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
-        drawtrisine();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
-        drawtrisquare();
-    }
+    
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
         if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
+        if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
+            drawsinesquare();
+        }
+        if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
+            drawsinetri();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
+            drawsquaresine();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
+            drawsquaretri();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
+            drawtrisine();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
+            drawtrisquare();
+        }
     }
 
     if (currentMode === "xymode") {
@@ -345,28 +333,29 @@ function freqfng1() {
         drawtraingwv1();
     }
 
-    if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
-        drawsinesquare();
-    }
-    if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
-        drawsinetri();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
-        drawsquaresine();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
-        drawsquaretri();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
-        drawtrisine();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
-        drawtrisquare();
-    }
+  
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
         if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
+        if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
+            drawsinesquare();
+        }
+        if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
+            drawsinetri();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
+            drawsquaresine();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
+            drawsquaretri();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
+            drawtrisine();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
+            drawtrisquare();
+        }
     }
 
     if (currentMode === "xymode") {
@@ -415,28 +404,29 @@ function ampfng2() {
         drawtraingwv2();
     }
 
-    if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
-        drawsinesquare();
-    }
-    if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
-        drawsinetri();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
-        drawsquaresine();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
-        drawsquaretri();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
-        drawtrisine();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
-        drawtrisquare();
-    }
+   
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
         if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
+        if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
+            drawsinesquare();
+        }
+        if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
+            drawsinetri();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
+            drawsquaresine();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
+            drawsquaretri();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
+            drawtrisine();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
+            drawtrisquare();
+        }
     }
 
     if (currentMode === "xymode") {
@@ -482,28 +472,29 @@ function freqfng2() {
         drawtraingwv2();
     }
 
-    if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
-        drawsinesquare();
-    }
-    if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
-        drawsinetri();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
-        drawsquaresine();
-    }
-    if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
-        drawsquaretri();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
-        drawtrisine();
-    }
-    if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
-        drawtrisquare();
-    }
+   
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
         if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
+        if ((flag_ch1 == 1) && (flag_ch2 == 7)) {
+            drawsinesquare();
+        }
+        if ((flag_ch1 == 1) && (flag_ch2 == 8)) {
+            drawsinetri();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 6)) {
+            drawsquaresine();
+        }
+        if ((flag_ch1 == 2) && (flag_ch2 == 8)) {
+            drawsquaretri();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 6)) {
+            drawtrisine();
+        }
+        if ((flag_ch1 == 3) && (flag_ch2 == 7)) {
+            drawtrisquare();
+        }
     }
 
     if (currentMode === "xymode") {
