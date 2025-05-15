@@ -151,16 +151,18 @@ function drawsine1() {
     const ctx = canvas.getContext("2d");
     // fill canvas
     ctx.fillStyle = "white";
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-
-    drawGrid(ctx);
+    
+   
     drawAxis();
-    sinwv1();
+    drawGrid(ctx);
+     sinwv1();
 }
 
 function sinwv1() {
 
+    
     vp1 = document.getElementById("amp-knob-fng1").value;
     frqfng1 = document.getElementById("fq-knob-fng1").value;//frequency
     phsl = document.getElementById("positionx").value;
