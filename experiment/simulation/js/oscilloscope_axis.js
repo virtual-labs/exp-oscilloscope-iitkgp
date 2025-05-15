@@ -52,7 +52,6 @@ function mainswt() {
     }
     else {
         document.getElementById("onff").value = "Off";
-
         document.getElementById("sinecrv").disabled = false;
         document.getElementById("squarewave").disabled = false;
         document.getElementById("triagwave").disabled = false;
@@ -69,6 +68,7 @@ function mainswt() {
         document.getElementById("dual").style.display = "block";
         document.getElementById("grnd").style.display = "block";
         document.getElementById("xymd").style.display = "block";
+        //document.getElementById("sinecrv").setAttribute("onclick", "drawsine1()");
        
        // document.getElementById("resistor").disabled=true;
         
@@ -324,6 +324,7 @@ function drawHorizontalAxisTicks() {
 //------------------sine wave  channel button ------------------------------//
 let currentMode;
 function chnlo(){
+    currentMode ="null";
     if (flag_ch1===1){
     drawsine1();
 
@@ -333,7 +334,7 @@ function chnlo(){
 }
 
 function chnlt(){
-    
+    currentMode ="null";
    if (flag_ch2===6 ){
        drawsine2();}
     else if (flag_ch2===7 ){drawsquarewv2();}
