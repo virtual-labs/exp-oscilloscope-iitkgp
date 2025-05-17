@@ -3,7 +3,7 @@
     Author     : sukriti
 */
 
-body,html {margin:0; padding:0;}//background-color:#003366;
+body,html {margin:0; padding:0;} /*background-color:#003366;*/
 .clearfix { clear:both; }
 .wholebody {
     margin:0 auto;
@@ -99,7 +99,7 @@ body,html {margin:0; padding:0;}//background-color:#003366;
     border-radius: 5px;
     box-shadow: 0 2px #999;
 }
-#sincrv{
+#sinecrv2{
     position:relative;
     top:10px;
     left:20px;
@@ -396,7 +396,7 @@ body,html {margin:0; padding:0;}//background-color:#003366;
 #frequency-knob-container-fng2 label,#amplitude-knob-container-fng2 label{
     font-style: italic;
 }
-//---------------------------vertical range slider-------------------------//
+/*---------------------------vertical range slider-------------------------*/
 input[type=range][orient=vertical]
 {
 

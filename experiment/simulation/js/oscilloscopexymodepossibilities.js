@@ -858,84 +858,60 @@ function xysquaresine() {
 }
 
 function squaresinexymode() {
-    vp1 = document.getElementById("amp-knob-fng1").value;
-    vp2 = document.getElementById("amp-knob-fng2").value;
-    frqfng1 = document.getElementById("fq-knob-fng1").value;
-    frqfng2 = document.getElementById("fq-knob-fng2").value;
-    phsl = document.getElementById("positionx").value;
-    posy1 = document.getElementById("positiony1").value;
-    posy2 = document.getElementById("positiony2").value;
-    tmaxs = document.getElementById("fq-knob").value * 10 * Math.pow(10, -3);// in msec  0.001; //in sec
+    // Read control values
+const vp1 = parseFloat(document.getElementById("amp-knob-fng1").value);
+const vp2 = parseFloat(document.getElementById("amp-knob-fng2").value);
+const frqfng1 = parseFloat(document.getElementById("fq-knob-fng1").value);
+const frqfng2 = parseFloat(document.getElementById("fq-knob-fng2").value);
+const phsl = parseFloat(document.getElementById("positionx").value);
+const posy1 = parseFloat(document.getElementById("positiony1").value);
+const posy2 = parseFloat(document.getElementById("positiony2").value);
+const tmaxs = parseFloat(document.getElementById("fq-knob").value) * 0.01;
 
-    //---------------------------------------------------------Square wave (Function Generator 1)-------------------------------------------------------------------------------//
+// Canvas and axes setup
 
-    var x = new Array(), y = new Array(), ys = new Array();  // x,y plotting variables
-    var dt, tstart, tstop;             // time variables
-    // flag = 14;
-    // define plot paramaters
-    tstart = 0; //in sec
-    tstop = tmaxs;
-    dt = (tstop - tstart) / (101 - 1);// time increment over N points
 
-    // create function 
-    for (var i = 0; i < axes.N; i++) {
-        x[i] = tstart + i * dt;
-        y[i] = vp1 * Math.sin(2 * 3.1415 * frqfng1 * x[i] + phsl * 3.1415 / 180);
-        ys[i] = (vp1 / 2) * Math.sign(y[i]);
-    }
+const axes = {
+    x0: 300,
+    y0: 175,
+    xscale: 200,
+    yscale1: 100,
+    yscale2: 100,
+    N: 101
+};
 
-    var i, x0, y0, xscale, yscales1, xp, yp;
+// Generate time steps
+const dt = tmaxs / (axes.N - 1);
+const x = Array.from({ length: axes.N }, (_, i) => i * dt);
 
-    x0 = axes.x0;//260.5
-    y0 = axes.y0;//175.5
-    xscale = axes.xscale;//260000
-    yscales1 = axes.yscale1;//87.5
+// Generate square wave (Function Generator 1)
+const ys = x.map(t => {
+    const angle = 2 * Math.PI * frqfng1 * t + phsl * Math.PI / 180;
+    return (vp1 / 2) * Math.sign(Math.sin(angle));
+});
 
-    ctx.beginPath();
-    ctx.lineWidth = 1.5;
-    ctx.strokeStyle = "#0059b3";
-    var p = y0 - parseInt(posy1) * yscale;
+// Generate sine wave (Function Generator 2)
+const y1 = x.map(t => {
+    const angle = 2 * Math.PI * frqfng2 * t + phsl * Math.PI / 180;
+    return (vp2 / 2) * Math.sin(angle);
+});
 
-    ///-------------------------------------------------Sine wave (Function Generator 2)------//
-    var x1 = new Array(), y1 = new Array();  // x,y plotting variables
-    var dt1, tstart1, tstop1;             // time variables
+// Plot the combined waveform
+ctx.beginPath();
+ctx.lineWidth = 1.5;
+ctx.strokeStyle = "#ff6600";
 
-    // define plot paramaters
-    tstart1 = 0; //in sec
-    tstop1 = tmaxs;
-    dt1 = (tstop - tstart) / (101 - 1);// time increment over N points
+for (let j = 0; j < axes.N; j++) {
+    // Map the square wave to X and sine wave to Y
+    const xp = axes.x0 + ys[j] * axes.xscale / 10 + posy1;
+    const yp = axes.y0 - y1[j] * axes.yscale2 / 10 + posy2;
 
-    // create function 
-    for (var j = 0; j < axes.N; j++) {
-        x1[j] = tstart1 + j * dt1;
-        y1[j] = (vp2 / 2) * Math.sin(2 * 3.1415 * frqfng2 * x1[j] + phsl * 3.1415 / 180);
-    }
+    if (j === 0) ctx.moveTo(xp, yp);
+    else ctx.lineTo(xp, yp);
+}
 
-    var j, x0, y0, xscale, yscale, xp1, yp1;
+ctx.stroke();
 
-    x0 = axes.x0;//260.5
-    y0 = axes.y0;//175.5
-    xscale = axes.xscale;//260000
-    yscale = axes.yscale2;//87.5
-
-    ctx.beginPath();
-    ctx.lineWidth = 1.5;
-    ctx.strokeStyle = "#ff6600";
-    var p2 = y0 - parseInt(posy2) * yscale;
-    for (j = 0; j < axes.N; j++) {
-
-        // translate actual x,y to plot xp,yp
-        yp = y0 - ys[j] * yscales1 + p + 120;
-        yp1 = y0 - y1[j] * yscale + p2 - 175;
-
-        // draw line to next point
-        if (j == 0)
-            ctx.moveTo(yp, yp1);
-        else
-            ctx.lineTo(yp, yp1);
-    }
-
-    ctx.stroke();
 
 }
 
@@ -1054,89 +1030,54 @@ function xytrisine() {
     drawAxis();
     trisinexymode();
 }
+ 
 function trisinexymode() {
-    vp1 = document.getElementById("amp-knob-fng1").value;
-    vp2 = document.getElementById("amp-knob-fng2").value;;
-    frqfng1 = document.getElementById("fq-knob-fng1").value;
-    frqfng2 = document.getElementById("fq-knob-fng2").value;
-    phsl = document.getElementById("positionx").value;
-    posy1 = document.getElementById("positiony1").value;
-    posy2 = document.getElementById("positiony2").value;
-    tmaxs = document.getElementById("fq-knob").value * 10 * Math.pow(10, -3);// in msec  0.001; //in sec
+    const axes = {
+     x0: 300,
+        y0: 175,
+        xscale: 200,
+        yscale1: 200,
+        yscale2: 200,
+        N: 101
+    };
+    const vp1 = parseFloat(document.getElementById("amp-knob-fng1").value);
+    const vp2 = parseFloat(document.getElementById("amp-knob-fng2").value);
+    const frqfng1 = parseFloat(document.getElementById("fq-knob-fng1").value);
+    const frqfng2 = parseFloat(document.getElementById("fq-knob-fng2").value);
+    const phsl = parseFloat(document.getElementById("positionx").value);
+    const posy1 = parseFloat(document.getElementById("positiony1").value);
+    const posy2 = parseFloat(document.getElementById("positiony2").value);
+    const tmaxs = parseFloat(document.getElementById("fq-knob").value) * 0.01;
 
-    var r = 10 * Math.pow(10, 3);//document.getElementById("restr").value*Math.pow(10,3);
-    var c = 0.1 * Math.pow(10, -6);//document.getElementById("captr").value*Math.pow(10,-6);
-    var scalefactor = parseInt(r) * parseFloat(c);//-(1/r*c);
-    //---------------------------------------------------------Triangular wave (Function Generator 1)-------------------------------------------------------------------------------//
+    // Generate waveforms
+    const x = [], y = [], y1 = [];
+    const dt = tmaxs / (axes.N - 1);
 
-    var x = new Array(), y = new Array(), y1 = new Array();  // x,y plotting variables
-    var dt, tstart, tstop;             // time variables
-    //  flag = 15;
-    // define plot paramaters
-    tstart = 0; //in sec
-    tstop = tmaxs;
-    dt = (tstop - tstart) / (101 - 1);// time increment over N points
+    for (let i = 0; i < axes.N; i++) {
+        const t = i * dt;
+        const p1 = 2 * Math.PI * frqfng1 * t + (phsl + 270) * Math.PI / 180;
+        const p2 = 2 * Math.PI * frqfng2 * t + phsl * Math.PI / 180;
 
-    // create function 
-    for (var i = 0; i < axes.N; i++) {
-        x[i] = (tstart + i * dt).toPrecision(6);
-        var p = 2 * 3.1415 * frqfng1 * x[i] + (phsl + 270) * 3.1415 / 180;
-        var z = Math.sin(p);
-        y1[i] = -(parseFloat(vp1 / 2) * Math.asin(z)); //-Math.sign(Vp *Math.sin(2 * 3.1415 * fo * x[i] + phase * 3.1415 / 180));
-        y[i] = (Math.pow(10, -3) / scalefactor) * (parseFloat(y1[i])); //- parseFloat(y2[i + 101]));
-    }
-    //-------------------------------------------------Sine wave (Function Generator 2)----//
-    var i, x0, y0, xscale, yscales1, xp, yp;
-
-    x0 = axes.x0;//260.5
-    y0 = axes.y0;//175.5
-    xscale = axes.xscale;//260000
-    yscales1 = axes.yscale1;//87.5
-
-    ctx.beginPath();
-    ctx.lineWidth = 1.5;
-    ctx.strokeStyle = "#0059b3";
-    var p = y0 - parseInt(posy1) * yscale;
-
-    var x1 = new Array(), y1 = new Array();  // x,y plotting variables
-    var dt1, tstart1, tstop1;             // time variables
-
-    // define plot paramaters
-    tstart1 = 0; //in sec
-    tstop1 = tmaxs;
-    dt1 = (tstop - tstart) / (101 - 1);// time increment over N points
-
-    // create function 
-    for (var j = 0; j < axes.N; j++) {
-        x1[j] = tstart1 + j * dt1;
-        y1[j] = (vp2 / 2) * Math.sin(2 * 3.1415 * frqfng2 * x1[j] + phsl * 3.1415 / 180);
+        y[i] = -(vp1 / 2) * Math.asin(Math.sin(p1));
+        y1[i] = (vp2 / 2) * Math.sin(p2);
     }
 
-    var j, x0, y0, xscale, yscale, xp1, yp1;
-
-    x0 = axes.x0;//260.5
-    y0 = axes.y0;//175.5
-    xscale = axes.xscale;//260000
-    yscale = axes.yscale2;//87.5
-
+    // Draw the XY plot
     ctx.beginPath();
     ctx.lineWidth = 1.5;
     ctx.strokeStyle = "#ff6600";
-    var p2 = y0 - parseInt(posy2) * yscale;
-    for (j = 0; j < axes.N; j++) {
 
-        // translate actual x,y to plot xp,yp
-        yp = y0 - y[j] * yscales1 + p + 120;
-        yp1 = y0 - y1[j] * yscale + p2 - 175;
+    for (let j = 0; j < axes.N; j++) {
+        const xp = axes.x0 + y[j] * axes.xscale / 10;
+        const yp = axes.y0 - y1[j] * axes.yscale2 / 10 + posy2 - posy1;
 
-        // draw line to next point
-        if (j == 0)
-            ctx.moveTo(yp, yp1);
-        else
-            ctx.lineTo(yp, yp1);
+        if (j === 0) ctx.moveTo(xp, yp);
+        else ctx.lineTo(xp, yp);
     }
 
     ctx.stroke();
+
+    
 
 
 }
@@ -1155,89 +1096,66 @@ function xytrisquare() {
     trisquarexymode();
 }
 function trisquarexymode() {
-    vp1 = document.getElementById("amp-knob-fng1").value;
-    vp2 = document.getElementById("amp-knob-fng2").value;;
-    frqfng1 = document.getElementById("fq-knob-fng1").value;
-    frqfng2 = document.getElementById("fq-knob-fng2").value;
-    phsl = document.getElementById("positionx").value;
-    posy1 = document.getElementById("positiony1").value;
-    posy2 = document.getElementById("positiony2").value;
-    tmaxs = document.getElementById("fq-knob").value * 10 * Math.pow(10, -3);// in msec  0.001; //in sec
 
-    var r = 10 * Math.pow(10, 3);//document.getElementById("restr").value*Math.pow(10,3);
-    var c = 0.1 * Math.pow(10, -6);//document.getElementById("captr").value*Math.pow(10,-6);
-    var scalefactor = parseInt(r) * parseFloat(c);//-(1/r*c);
-    //---------------------------------------------------------Triangular wave (Function Generator 1)-------------------------------------------------------------------------------//
+   // Read control values
+const vp1 = parseFloat(document.getElementById("amp-knob-fng1").value);
+const vp2 = parseFloat(document.getElementById("amp-knob-fng2").value);
+const frqfng1 = parseFloat(document.getElementById("fq-knob-fng1").value);
+const frqfng2 = parseFloat(document.getElementById("fq-knob-fng2").value);
+const phsl = parseFloat(document.getElementById("positionx").value);
+const posy1 = parseFloat(document.getElementById("positiony1").value);
+const posy2 = parseFloat(document.getElementById("positiony2").value);
+const tmaxs = parseFloat(document.getElementById("fq-knob").value) * 0.01;
 
-    var x = new Array(), y = new Array(), y1 = new Array();  // x,y plotting variables
-    var dt, tstart, tstop;             // time variables
-    //  flag = 15;
-    // define plot paramaters
-    tstart = 0; //in sec
-    tstop = tmaxs;
-    dt = (tstop - tstart) / (101 - 1);// time increment over N points
+// Circuit parameters (if needed for scaling)
+const r = 10e3;  // 10 kOhm
+const c = 0.1e-6;  // 0.1 uF
+const scalefactor = r * c;
 
-    // create function 
-    for (var i = 0; i < axes.N; i++) {
-        x[i] = (tstart + i * dt).toPrecision(6);
-        var p = 2 * 3.1415 * frqfng1 * x[i] + (phsl + 270) * 3.1415 / 180;
-        var z = Math.sin(p);
-        y1[i] = -(parseFloat(vp1 / 2) * Math.asin(z)); //-Math.sign(Vp *Math.sin(2 * 3.1415 * fo * x[i] + phase * 3.1415 / 180));
-        y[i] = (Math.pow(10, -3) / scalefactor) * (parseFloat(y1[i])); //- parseFloat(y2[i + 101]));
-    }
+// Canvas and axes
 
-    var i, x0, y0, xscale, yscales1, xp, yp;
+const axes = {
+    x0: 300,
+    y0: 175,
+    xscale: 200,
+    yscale1: 100,
+    yscale2: 100,
+    N: 101
+};
 
-    x0 = axes.x0;//260.5
-    y0 = axes.y0;//175.5
-    xscale = axes.xscale;//260000
-    yscales1 = axes.yscale1;//87.5
+// Generate time steps
+const dt = tmaxs / (axes.N - 1);
+const x = Array.from({ length: axes.N }, (_, i) => i * dt);
 
-    ctx.beginPath();
-    ctx.lineWidth = 1.5;
-    ctx.strokeStyle = "#0059b3";
-    var p = y0 - parseInt(posy1) * yscale;
+// Generate triangular wave (Function Generator 1)
+const y_tri = x.map(t => {
+    const angle = 2 * Math.PI * frqfng1 * t + (phsl + 270) * Math.PI / 180;
+    const sin_val = Math.sin(angle);
+    return -(vp1 / 2) * Math.asin(sin_val) * (1 / scalefactor);
+});
 
-    //-------------------------------------------------Square wave (Function Generator 2)-------------------------------------------------//
+// Generate square wave (Function Generator 2)
+const y_sq = x.map(t => {
+    const angle = 2 * Math.PI * frqfng2 * t + phsl * Math.PI / 180;
+    const sin_val = Math.sin(angle);
+    return (vp2 / 2) * Math.sign(sin_val);
+});
 
-    var x1 = new Array(), y1 = new Array(), ys1 = new Array();  // x,y plotting variables
-    var dt, tstart, tstop;             // time variables
+// Plot the combined waveform
+ctx.beginPath();
+ctx.lineWidth = 1.5;
+ctx.strokeStyle = "#ff6600";
 
-    // define plot paramaters
-    tstart = 0; //in sec
-    tstop = tmaxs;
-    dt = (tstop - tstart) / (101 - 1);// time increment over N points
+for (let j = 0; j < axes.N; j++) {
+    const xp = axes.x0 + y_tri[j] * axes.xscale;
+    const yp = axes.y0 - y_sq[j] * axes.yscale2 + posy2 - posy1;
 
-    // create function 
-    for (var j = 0; j < axes.N; j++) {
-        x1[j] = tstart + j * dt;
-        y1[j] = vp2 * Math.sin(2 * 3.1415 * frqfng2 * x1[j] + phsl * 3.1415 / 180);
-        ys1[j] = (vp2 / 2) * Math.sign(y1[j]);
-    }
+    if (j === 0) ctx.moveTo(xp, yp);
+    else ctx.lineTo(xp, yp);
+}
 
-    var j, x0, y0, xscale, yscale, xp1, yp1;
+ctx.stroke();
 
-    x0 = axes.x0;//260.5
-    y0 = axes.y0;//175.5
-    xscale = axes.xscale;//260000
-    yscale = axes.yscale2;//87.5
 
-    ctx.beginPath();
-    ctx.lineWidth = 1.5;
-    ctx.strokeStyle = "#ff6600";
-    var p2 = y0 - parseInt(posy2) * yscale;
-    for (j = 0; j < axes.N; j++) {
-
-        // translate actual x,y to plot xp,yp
-        yp = y0 + y[j] * yscales1 + p + 120;
-        yp1 = y0 - ys1[j] * yscale + p2 - 175;
-
-        // draw line to next point
-        if (j == 0)
-            ctx.moveTo(yp, yp1);
-        else
-            ctx.lineTo(yp, yp1);
-    }
-
-    ctx.stroke();
+    
 }

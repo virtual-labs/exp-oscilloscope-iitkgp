@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XY Mode Oscilloscope</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+            text-align: center;
+        }
+        canvas {
+            background-color: #000;
+            border: 2px solid #555;
+            margin-bottom: 20px;
+        }
+        .slider-container {
+            margin-bottom: 15px;
+        }
+        .slider-label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>XY Mode Oscilloscope</h2>
+    <canvas id="oscilloscope" width="800" height="600"></canvas>
+
+    <div class="slider-container">
+        <label class="slider-label">Amplitude (FNG1): </label>
+        <input type="range" id="amp-knob-fng1" min="0" max="10" value="5">
+    </div>
+    <div class="slider-container">
+        <label class="slider-label">Frequency (FNG1): </label>
+        <input type="range" id="fq-knob-fng1" min="1" max="100" value="50">
+    </div>
+    <div class="slider-container">
+        <label class="slider-label">Amplitude (FNG2): </label>
+        <input type="range" id="amp-knob-fng2" min="0" max="10" value="5">
+    </div>
+    <div class="slider-container">
+        <label class="slider-label">Frequency (FNG2): </label>
+        <input type="range" id="fq-knob-fng2" min="1" max="100" value="50">
+    </div>
+    <div class="slider-container">
+        <label class="slider-label">Phase Shift: </label>
+        <input type="range" id="positionx" min="0" max="360" value="0">
+    </div>
+    <div class="slider-container">
+        <label class="slider-label">Vertical Offset (FNG1): </label>
+        <input type="range" id="positiony1" min="-200" max="200" value="0">
+    </div>
+    <div class="slider-container">
+        <label class="slider-label">Vertical Offset (FNG2): </label>
+        <input type="range" id="positiony2" min="-200" max="200" value="0">
+    </div>
+    <div class="slider-container">
+        <label class="slider-label">Time Scale: </label>
+        <input type="range" id="fq-knob" min="1" max="100" value="10">
+    </div>
+
+    <script>
+        // Initialize the axes object
+const axes = {
+    x0: 400,
+    y0: 300,
+    xscale: 200,
+    yscale1: 200,
+    yscale2: 200,
+    N: 101
+};
+
+function trisinexymode() {
+    // Read control values
+const vp1 = parseFloat(document.getElementById("amp-knob-fng1").value);
+const vp2 = parseFloat(document.getElementById("amp-knob-fng2").value);
+const frqfng1 = parseFloat(document.getElementById("fq-knob-fng1").value);
+const frqfng2 = parseFloat(document.getElementById("fq-knob-fng2").value);
+const phsl = parseFloat(document.getElementById("positionx").value);
+const posy1 = parseFloat(document.getElementById("positiony1").value);
+const posy2 = parseFloat(document.getElementById("positiony2").value);
+const tmaxs = parseFloat(document.getElementById("fq-knob").value) * 0.01;
+
+// Circuit parameters (if needed for scaling)
+const r = 10e3;  // 10 kOhm
+const c = 0.1e-6;  // 0.1 uF
+const scalefactor = r * c;
+
+// Canvas and axes
+const canvas = document.getElementById("oscilloscope");
+const ctx = canvas.getContext("2d");
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+ctx.lineWidth = 1.5;
+
+const axes = {
+    x0: 400,
+    y0: 300,
+    xscale: 200,
+    yscale1: 100,
+    yscale2: 100,
+    N: 101
+};
+
+// Generate time steps
+const dt = tmaxs / (axes.N - 1);
+const x = Array.from({ length: axes.N }, (_, i) => i * dt);
+
+// Generate triangular wave (Function Generator 1)
+const y_tri = x.map(t => {
+    const angle = 2 * Math.PI * frqfng1 * t + (phsl + 270) * Math.PI / 180;
+    const sin_val = Math.sin(angle);
+    return -(vp1 / 2) * Math.asin(sin_val) * (1 / scalefactor);
+});
+
+// Generate square wave (Function Generator 2)
+const y_sq = x.map(t => {
+    const angle = 2 * Math.PI * frqfng2 * t + phsl * Math.PI / 180;
+    const sin_val = Math.sin(angle);
+    return (vp2 / 2) * Math.sign(sin_val);
+});
+
+// Plot the combined waveform
+ctx.beginPath();
+ctx.strokeStyle = "#ff6600";
+
+for (let j = 0; j < axes.N; j++) {
+    const xp = axes.x0 + y_tri[j] * axes.xscale;
+    const yp = axes.y0 - y_sq[j] * axes.yscale2 + posy2 - posy1;
+
+    if (j === 0) ctx.moveTo(xp, yp);
+    else ctx.lineTo(xp, yp);
+}
+
+ctx.stroke();
+}
+//     const canvas = document.getElementById("oscilloscope");
+//     const ctx = canvas.getContext("2d");
+
+//     // Clear the canvas for fresh drawing
+//     ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+//     // Read control values
+//     const vp1 = parseFloat(document.getElementById("amp-knob-fng1").value);
+//     const vp2 = parseFloat(document.getElementById("amp-knob-fng2").value);
+//     const frqfng1 = parseFloat(document.getElementById("fq-knob-fng1").value);
+//     const frqfng2 = parseFloat(document.getElementById("fq-knob-fng2").value);
+//     const phsl = parseFloat(document.getElementById("positionx").value);
+//     const posy1 = parseFloat(document.getElementById("positiony1").value);
+//     const posy2 = parseFloat(document.getElementById("positiony2").value);
+//     const tmaxs = parseFloat(document.getElementById("fq-knob").value) * 0.01;
+
+//     // Generate waveforms
+//     const x = [], y = [], y1 = [];
+//     const dt = tmaxs / (axes.N - 1);
+
+//     for (let i = 0; i < axes.N; i++) {
+//         const t = i * dt;
+//         const p1 = 2 * Math.PI * frqfng1 * t + (phsl + 270) * Math.PI / 180;
+//         const p2 = 2 * Math.PI * frqfng2 * t + phsl * Math.PI / 180;
+
+//         y[i] = -(vp1 / 2) * Math.asin(Math.sin(p1));
+//         y1[i] = (vp2 / 2) * Math.sin(p2);
+//     }
+
+//     // Draw the XY plot
+//     ctx.beginPath();
+//     ctx.lineWidth = 1.5;
+//     ctx.strokeStyle = "#ff6600";
+
+//     for (let j = 0; j < axes.N; j++) {
+//         const xp = axes.x0 + y[j] * axes.xscale / 10;
+//         const yp = axes.y0 - y1[j] * axes.yscale2 / 10 + posy2 - posy1;
+
+//         if (j === 0) ctx.moveTo(xp, yp);
+//         else ctx.lineTo(xp, yp);
+//     }
+
+//     ctx.stroke();
+// }
+
+// Attach event listeners to sliders
+document.querySelectorAll("input[type=range]").forEach(slider => {
+    slider.addEventListener("input", trisinexymode);
+});
+
+// Initial draw
+window.onload = trisinexymode;
+
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- <script>
+function testXYMode() {
+    const canvas = document.getElementById("oscilloscope");
+    const ctx = canvas.getContext("2d");
+    const axes = {
+        x0: 400,
+        y0: 300,
+        xscale: 300,
+        yscale: 200,
+        N: 101
+    };
+    
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.beginPath();
+    ctx.strokeStyle = "#0059b3";
+    ctx.lineWidth = 1.5;
+
+    for (let i = 0; i < axes.N; i++) {
+        const angle = 2 * Math.PI * i / axes.N;
+        const x = axes.x0 + Math.cos(angle) * axes.xscale / 2;
+        const y = axes.y0 + Math.sin(angle) * axes.yscale / 2;
+
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+    }
+
+    ctx.stroke();
+}
+
+</script> -->
