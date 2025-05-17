@@ -498,13 +498,13 @@ $(document).ready(function () {
         angleOffset: -125,
         angleArc: 250,
         'change': function (v) {
-            if (flag_ch2 == 1) {
+            if (flag_ch1 == 1) {
                 drawsine1();
             }
-            if (flag_ch2 == 2) {
+            if (flag_ch1 == 2) {
                 drawsquarewv1();
             }
-            if (flag_ch2 == 3) {
+            if (flag_ch1 == 3) {
                 drawtraingwv1();
             }
             if (currentMode === "both") {
@@ -701,13 +701,13 @@ $(document).ready(function () {
         angleArc: 250,
         'change': function (v) {
 
-            if (flag_ch1 == 6) {
+            if (flag_ch2 == 6) {
                 drawsine2();
             }
-            if (flag_ch1 == 7) {
+            if (flag_ch2 == 7) {
                 drawsquarewv2();
             }
-            if (flag_ch1 == 8) {
+            if (flag_ch2 == 8) {
                 drawtraingwv2();
             }
             if (currentMode === "both") {
