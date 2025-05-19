@@ -15,6 +15,18 @@ var tmaxs;// in msec  0.001; //in sec
 
 function posiy1chnge() {
     posy1 = document.getElementById("positiony1").value;
+   
+   if (flag_ch1 == 1) {
+        drawsine1();
+    }
+    if (flag_ch1 == 2) {
+        
+        drawsquarewv1();
+    }
+    if (flag_ch1 == 3) {
+        drawtraingwv1();
+    }
+     if(currentMode === "ground"){
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
      } 
@@ -25,47 +37,38 @@ function posiy1chnge() {
         grndwvtri();
      
      }  
-   /* if (flag == 1) {
-        drawsine1();
     }
-    if (flag == 2) {
-         drawsquarewv1();
+    
+    if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
+        
+    
     }
-    if (flag == 3) {
-        drawtraingwv1();
-    }*/
-    // if (flag == 4){
-    //     grndwvsin();
-    // }
-    // if (flag == 9){
-    //     grndwvsq();   
-    // }
-    // if (flag == 10){
-    //     grndwvtri();
-    // }
-   /* if (flag == 5){
-        bothwvsin();
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-    if (flag == 11){
-        bothwvsq();   
-    }
-    if (flag == 12){
-        bothwvtri();
-    }*/
+    
+   
 }
 
 function posiy2chnge() {
     posy2 = document.getElementById("positiony2").value;
-    
-    /*if (flag == 6) {
+     if (flag_ch2 == 6) {
         drawsine2();
     }
-   if (flag == 7) {
+    if (flag_ch2 == 7) {
         drawsquarewv2();
     }
-     if (flag == 8) {
+    if (flag_ch2 == 8) {
         drawtraingwv2();
-    }*/
+    }
+   
+   if(currentMode === "ground"){
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
      } 
@@ -76,38 +79,42 @@ function posiy2chnge() {
         grndwvtri();
      
      }  
-    /*if (flag == 5){
-        bothwvsin();
     }
-    if (flag == 11){
-        bothwvsq();   
+   if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
     }
-    if (flag == 12){
-        bothwvtri();
-    }*/
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
+    }
    
 }
 
 function posix2chnge() {
     phsl = document.getElementById("positionx").value;
-   /* if (flag == 1) {
+    if (flag_ch1 == 1) {
         drawsine1();
     }
-    if (flag == 2) {
-         drawsquarewv1();
+    if (flag_ch1 == 2) {
+        drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
     }
-    if (flag == 6) {
+    if (flag_ch2 == 6) {
         drawsine2();
     }
-   if (flag == 7) {
+    if (flag_ch2 == 7) {
         drawsquarewv2();
     }
-     if (flag == 8) {
+    if (flag_ch2 == 8) {
         drawtraingwv2();
-    }*/
+    }
+   if(currentMode === "ground"){
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
      } 
@@ -117,29 +124,33 @@ function posix2chnge() {
       if (flag_ch1 === 3 && flag_ch2 === 8) {
         grndwvtri();
      
-     }  
-    /*if (flag == 5){
-        bothwvsin();
+     } 
+    } 
+    if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
     }
-    if (flag == 11){
-        bothwvsq();   
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-    if (flag == 12){
-        bothwvtri();
-    }*/
 }
 
 function ampfng1() {
     vp1 = document.getElementById("amp-knob-fng1").value;
-    /*if (flag == 1) {
+     if (flag_ch1 == 1) {
         drawsine1();
     }
-    if (flag == 2) {
-         drawsquarewv1();
+    if (flag_ch1 == 2) {
+        drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
-    }*/
+    }
+   if(currentMode === "ground"){
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
      } 
@@ -150,28 +161,33 @@ function ampfng1() {
         grndwvtri();
      
      }  
-  /*  if (flag == 5){
-        bothwvsin();
     }
-    if (flag == 11){
-        bothwvsq();   
+
+   if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
     }
-    if (flag == 12){
-        bothwvtri();
-    }*/
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
+    }
 }
 
 function freqfng1() {
     frqfng1 = document.getElementById("fq-knob-fng1").value;
-    /*if (flag == 1) {
+     if (flag_ch1 == 1) {
         drawsine1();
     }
-    if (flag == 2) {
-         drawsquarewv1();
+    if (flag_ch1 == 2) {
+        drawsquarewv1();
     }
-    if (flag == 3) {
+    if (flag_ch1 == 3) {
         drawtraingwv1();
-    }*/
+    }
+   if(currentMode === "ground"){
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
      } 
@@ -182,27 +198,31 @@ function freqfng1() {
         grndwvtri();
      
      }  
-    /*if (flag == 5){
-        bothwvsin();
     }
-    if (flag == 11){
-        bothwvsq();   
+    if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
     }
-    if (flag == 12){
-        bothwvtri();
-    }*/
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
+    }
 }
 function ampfng2() {
     vp2 = document.getElementById("amp-knob-fng2").value;
-   /* if (flag == 6) {
+   if (flag_ch2 == 6) {
         drawsine2();
     }
-   if (flag == 7) {
+    if (flag_ch2 == 7) {
         drawsquarewv2();
     }
-     if (flag == 8) {
+    if (flag_ch2 == 8) {
         drawtraingwv2();
-    }*/
+    }
+   if(currentMode === "ground"){
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
      } 
@@ -213,28 +233,32 @@ function ampfng2() {
         grndwvtri();
      
      }  
-  /*  if (flag == 5){
-        bothwvsin();
     }
-    if (flag == 11){
-        bothwvsq();   
+ if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
     }
-    if (flag == 12){
-        bothwvtri();
-    }*/
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
+    }
 }
 
 function freqfng2() {
     frqfng2 = document.getElementById("fq-knob-fng2").value;
-    /*if (flag == 6) {
+    if (flag_ch2 == 6) {
         drawsine2();
     }
-   if (flag == 7) {
+    if (flag_ch2 == 7) {
         drawsquarewv2();
     }
-     if (flag == 8) {
+    if (flag_ch2 == 8) {
         drawtraingwv2();
-    }*/
+    }
+   if(currentMode === "ground"){
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
      } 
@@ -245,15 +269,18 @@ function freqfng2() {
         grndwvtri();
      
      }  
-  /*  if (flag == 5){
-        bothwvsin();
     }
-    if (flag == 11){
-        bothwvsq();   
+  if (currentMode === "both") {
+        if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
+        if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
+        if (flag_ch1 == 3 && flag_ch2 == 8) bothwvtri();
     }
-    if (flag == 12){
-        bothwvtri();
-    }*/
+
+    if (currentMode === "xymode") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
+        if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
+        if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
+    }
 }
 
 //----------------------------------------code for drawing sine wave ground --------------------------------------------------//
