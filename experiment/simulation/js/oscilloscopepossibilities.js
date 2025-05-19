@@ -24,34 +24,44 @@ function posiy1chnge() {
     if (flag_ch1 == 3) {
         drawtraingwv1();
     }
-   
-    
 
-    if(currentMode === "ground"){ 
+
+
+    if (currentMode === "ground") {
         if (flag_ch1 === 1 && flag_ch2 === 7) {
             grndwvsinsq();
-         } 
-          if (flag_ch1 === 1 && flag_ch2 === 8) {
-            grndwvsinetri();
-         } 
-         if (flag_ch1 === 2 && flag_ch2 === 6) {
-            grndwvsqsine();
-         
-         }  
-          if (flag_ch1 === 2 && flag_ch2 === 8) {
-            grndwvsqtri();
-         
-         }  
-         if (flag_ch1 === 3 && flag_ch2 === 6) {
-            grndwvtrisine();
-         
-         }  
-          if (flag_ch1 === 3 && flag_ch2 === 7) {
-            grndwvtrisq();
-         
-         }  
         }
-    
+        if (flag_ch1 === 1 && flag_ch2 === 8) {
+            grndwvsinetri();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 6) {
+            grndwvsqsine();
+
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 8) {
+            grndwvsqtri();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 6) {
+            grndwvtrisine();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 7) {
+            grndwvtrisq();
+
+        }
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
+
+        }
+    }
+
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
@@ -82,14 +92,14 @@ function posiy1chnge() {
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
 
-   
+
 
 }
 
 function posiy2chnge() {
     posy2 = document.getElementById("positiony2").value;
 
-    
+
     if (flag_ch2 == 6) {
         drawsine2();
     }
@@ -99,7 +109,7 @@ function posiy2chnge() {
     if (flag_ch2 == 8) {
         drawtraingwv2();
     }
-   
+
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
@@ -129,30 +139,40 @@ function posiy2chnge() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-    if(currentMode === "ground"){ 
+    if (currentMode === "ground") {
         if (flag_ch1 === 1 && flag_ch2 === 7) {
             grndwvsinsq();
-         } 
-          if (flag_ch1 === 1 && flag_ch2 === 8) {
-            grndwvsinetri();
-         } 
-         if (flag_ch1 === 2 && flag_ch2 === 6) {
-            grndwvsqsine();
-         
-         }  
-          if (flag_ch1 === 2 && flag_ch2 === 8) {
-            grndwvsqtri();
-         
-         }  
-         if (flag_ch1 === 3 && flag_ch2 === 6) {
-            grndwvtrisine();
-         
-         }  
-          if (flag_ch1 === 3 && flag_ch2 === 7) {
-            grndwvtrisq();
-         
-         }  
         }
+        if (flag_ch1 === 1 && flag_ch2 === 8) {
+            grndwvsinetri();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 6) {
+            grndwvsqsine();
+
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 8) {
+            grndwvsqtri();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 6) {
+            grndwvtrisine();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 7) {
+            grndwvtrisq();
+
+        }
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
+
+        }
+    }
     // if (flag == 4) {
     //     grndwvsin();
     // }
@@ -184,7 +204,7 @@ function posix2chnge() {
     if (flag_ch2 == 8) {
         drawtraingwv2();
     }
-   
+
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
@@ -223,30 +243,40 @@ function posix2chnge() {
     // if (flag == 10) {
     //     grndwvtri();
     // }
-    if(currentMode === "ground"){ 
+    if (currentMode === "ground") {
         if (flag_ch1 === 1 && flag_ch2 === 7) {
             grndwvsinsq();
-         } 
-          if (flag_ch1 === 1 && flag_ch2 === 8) {
-            grndwvsinetri();
-         } 
-         if (flag_ch1 === 2 && flag_ch2 === 6) {
-            grndwvsqsine();
-         
-         }  
-          if (flag_ch1 === 2 && flag_ch2 === 8) {
-            grndwvsqtri();
-         
-         }  
-         if (flag_ch1 === 3 && flag_ch2 === 6) {
-            grndwvtrisine();
-         
-         }  
-          if (flag_ch1 === 3 && flag_ch2 === 7) {
-            grndwvtrisq();
-         
-         }  
         }
+        if (flag_ch1 === 1 && flag_ch2 === 8) {
+            grndwvsinetri();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 6) {
+            grndwvsqsine();
+
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 8) {
+            grndwvsqtri();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 6) {
+            grndwvtrisine();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 7) {
+            grndwvtrisq();
+
+        }
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
+
+        }
+    }
 
 }
 
@@ -264,7 +294,7 @@ function ampfng1() {
         drawtraingwv1();
     }
 
-    
+
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
@@ -294,30 +324,30 @@ function ampfng1() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-    if(currentMode === "ground"){ 
+    if (currentMode === "ground") {
         if (flag_ch1 === 1 && flag_ch2 === 7) {
             grndwvsinsq();
-         } 
-          if (flag_ch1 === 1 && flag_ch2 === 8) {
-            grndwvsinetri();
-         } 
-         if (flag_ch1 === 2 && flag_ch2 === 6) {
-            grndwvsqsine();
-         
-         }  
-          if (flag_ch1 === 2 && flag_ch2 === 8) {
-            grndwvsqtri();
-         
-         }  
-         if (flag_ch1 === 3 && flag_ch2 === 6) {
-            grndwvtrisine();
-         
-         }  
-          if (flag_ch1 === 3 && flag_ch2 === 7) {
-            grndwvtrisq();
-         
-         }  
         }
+        if (flag_ch1 === 1 && flag_ch2 === 8) {
+            grndwvsinetri();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 6) {
+            grndwvsqsine();
+
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 8) {
+            grndwvsqtri();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 6) {
+            grndwvtrisine();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 7) {
+            grndwvtrisq();
+
+        }
+    }
 
 }
 
@@ -333,7 +363,7 @@ function freqfng1() {
         drawtraingwv1();
     }
 
-  
+
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
@@ -363,30 +393,30 @@ function freqfng1() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-    if(currentMode === "ground"){ 
+    if (currentMode === "ground") {
         if (flag_ch1 === 1 && flag_ch2 === 7) {
             grndwvsinsq();
-         } 
-          if (flag_ch1 === 1 && flag_ch2 === 8) {
-            grndwvsinetri();
-         } 
-         if (flag_ch1 === 2 && flag_ch2 === 6) {
-            grndwvsqsine();
-         
-         }  
-          if (flag_ch1 === 2 && flag_ch2 === 8) {
-            grndwvsqtri();
-         
-         }  
-         if (flag_ch1 === 3 && flag_ch2 === 6) {
-            grndwvtrisine();
-         
-         }  
-          if (flag_ch1 === 3 && flag_ch2 === 7) {
-            grndwvtrisq();
-         
-         }  
         }
+        if (flag_ch1 === 1 && flag_ch2 === 8) {
+            grndwvsinetri();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 6) {
+            grndwvsqsine();
+
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 8) {
+            grndwvsqtri();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 6) {
+            grndwvtrisine();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 7) {
+            grndwvtrisq();
+
+        }
+    }
 
 }
 
@@ -404,7 +434,7 @@ function ampfng2() {
         drawtraingwv2();
     }
 
-   
+
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
@@ -434,30 +464,30 @@ function ampfng2() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-    if(currentMode === "ground"){ 
+    if (currentMode === "ground") {
         if (flag_ch1 === 1 && flag_ch2 === 7) {
             grndwvsinsq();
-         } 
-          if (flag_ch1 === 1 && flag_ch2 === 8) {
-            grndwvsinetri();
-         } 
-         if (flag_ch1 === 2 && flag_ch2 === 6) {
-            grndwvsqsine();
-         
-         }  
-          if (flag_ch1 === 2 && flag_ch2 === 8) {
-            grndwvsqtri();
-         
-         }  
-         if (flag_ch1 === 3 && flag_ch2 === 6) {
-            grndwvtrisine();
-         
-         }  
-          if (flag_ch1 === 3 && flag_ch2 === 7) {
-            grndwvtrisq();
-         
-         }  
         }
+        if (flag_ch1 === 1 && flag_ch2 === 8) {
+            grndwvsinetri();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 6) {
+            grndwvsqsine();
+
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 8) {
+            grndwvsqtri();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 6) {
+            grndwvtrisine();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 7) {
+            grndwvtrisq();
+
+        }
+    }
 }
 
 function freqfng2() {
@@ -472,7 +502,7 @@ function freqfng2() {
         drawtraingwv2();
     }
 
-   
+
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
@@ -502,30 +532,30 @@ function freqfng2() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-    if(currentMode === "ground"){ 
+    if (currentMode === "ground") {
         if (flag_ch1 === 1 && flag_ch2 === 7) {
             grndwvsinsq();
-         } 
-          if (flag_ch1 === 1 && flag_ch2 === 8) {
-            grndwvsinetri();
-         } 
-         if (flag_ch1 === 2 && flag_ch2 === 6) {
-            grndwvsqsine();
-         
-         }  
-          if (flag_ch1 === 2 && flag_ch2 === 8) {
-            grndwvsqtri();
-         
-         }  
-         if (flag_ch1 === 3 && flag_ch2 === 6) {
-            grndwvtrisine();
-         
-         }  
-          if (flag_ch1 === 3 && flag_ch2 === 7) {
-            grndwvtrisq();
-         
-         }  
         }
+        if (flag_ch1 === 1 && flag_ch2 === 8) {
+            grndwvsinetri();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 6) {
+            grndwvsqsine();
+
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 8) {
+            grndwvsqtri();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 6) {
+            grndwvtrisine();
+
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 7) {
+            grndwvtrisq();
+
+        }
+    }
 }
 
 /*******************************************************  Sine from FG 1 Square  from FG 2  *************************************************/
@@ -558,7 +588,7 @@ function sinesquarewaveform() {
     var x = new Array(), y = new Array();  // x,y plotting variables
     var dt, tstart, tstop;             // time variables
     //flag_ch1 = 1;
-   // flag_ch2 = 7;
+    // flag_ch2 = 7;
     // define plot paramaters
     tstart = 0; //in sec
     tstop = tmaxs;
@@ -790,10 +820,10 @@ function squaresinewaveform() {
 
     var x = new Array(), y = new Array(), ys = new Array();  // x,y plotting variables
     var dt, tstart, tstop;             // time variables
-    
-   // flag_ch1 = 2;
-   // flag_ch2 = 6;
-    
+
+    // flag_ch1 = 2;
+    // flag_ch2 = 6;
+
     // define plot paramaters
     tstart = 0; //in sec
     tstop = tmaxs;
@@ -910,8 +940,8 @@ function squaretriwaveform() {
 
     var x = new Array(), y = new Array(), ys = new Array();  // x,y plotting variables
     var dt, tstart, tstop;             // time variables
-   // flag_ch1 = 2;
-   // flag_ch2 = 7;
+    // flag_ch1 = 2;
+    // flag_ch2 = 7;
     // define plot paramaters
     tstart = 0; //in sec
     tstop = tmaxs;
@@ -1031,7 +1061,7 @@ function trisinewaveform() {
 
     var x = new Array(), y = new Array(), y1 = new Array();  // x,y plotting variables
     var dt, tstart, tstop;             // time variables
-   // flag_ch1 = 3;
+    // flag_ch1 = 3;
     //flag_ch2 = 6;
     // define plot paramaters
     tstart = 0; //in sec
@@ -1150,8 +1180,8 @@ function trisquarewaveform() {
 
     var x = new Array(), y = new Array(), y1 = new Array();  // x,y plotting variables
     var dt, tstart, tstop;             // time variables
-   // flag_ch1 = 3;
-   // flag_ch2 = 7;
+    // flag_ch1 = 3;
+    // flag_ch2 = 7;
     // define plot paramaters
     tstart = 0; //in sec
     tstop = tmaxs;
