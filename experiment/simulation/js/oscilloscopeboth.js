@@ -25,7 +25,7 @@ function posiy1chnge() {
     if (flag_ch1 == 3) {
         drawtraingwv1();
     }
-    
+
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();
         if (flag_ch1 == 2 && flag_ch2 == 7) bothwvsq();
@@ -46,15 +46,17 @@ function posiy1chnge() {
     // if ((flag_ch1 == 3) && (flag_ch2 == 8)) {
     //     bothwvtri();
     // }
-    if (flag_ch1 === 1 && flag_ch2 === 6) {
-        grndwvsin();
-    }
-    if (flag_ch1 === 2 && flag_ch2 === 7) {
-        grndwvsq();
-    }
-    if (flag_ch1 === 3 && flag_ch2 === 8) {
-        grndwvtri();
+    if (currentMode === "ground") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
 
+        }
     }
     // if (flag == 4){
     //     grndwvsin();
@@ -70,7 +72,7 @@ function posiy1chnge() {
 function posiy2chnge() {
     posy2 = document.getElementById("positiony2").value;
 
-   
+
     if (flag_ch2 == 6) {
         drawsine2();
     }
@@ -91,18 +93,19 @@ function posiy2chnge() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
-   
-    if (flag_ch1 === 1 && flag_ch2 === 6) {
-        grndwvsin();
-    }
-    if (flag_ch1 === 2 && flag_ch2 === 7) {
-        grndwvsq();
-    }
-    if (flag_ch1 === 3 && flag_ch2 === 8) {
-        grndwvtri();
+    if (currentMode === "ground") {
 
-    }
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
 
+        }
+    }
 }
 
 function posix2chnge() {
@@ -146,16 +149,19 @@ function posix2chnge() {
     // if ((flag_ch1 == 3) && (flag_ch2 == 8)) {
     //     bothwvtri();
     // }
-    if (flag_ch1 === 1 && flag_ch2 === 6) {
-        grndwvsin();
-    }
-    if (flag_ch1 === 2 && flag_ch2 === 7) {
-        grndwvsq();
-    }
+    if (currentMode === "ground") {
 
-    if (flag_ch1 === 3 && flag_ch2 === 8) {
-        grndwvtri();
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
 
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
+
+        }
     }
 }
 
@@ -322,8 +328,8 @@ function sinesinebth() {
 
     var x = new Array(), y = new Array();  // x,y plotting variables
     var dt, tstart, tstop;             // time variables
-   // flag_ch1 = 1;
-   // flag_ch2 = 6;
+    // flag_ch1 = 1;
+    // flag_ch2 = 6;
     // define plot paramaters
     tstart = 0; //in sec
     tstop = tmaxs;
@@ -437,7 +443,7 @@ function squaresqrbth() {
     var x = new Array(), y = new Array(), ys = new Array();  // x,y plotting variables
     var dt, tstart, tstop;             // time variables
     //flag_ch1 = 2;
-   // flag_ch2 = 7;
+    // flag_ch2 = 7;
     // define plot paramaters
     tstart = 0; //in sec
     tstop = tmaxs;

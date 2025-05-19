@@ -98,7 +98,7 @@ $(document).ready(function () {
             // if ((flag_ch1 == 3) && (flag_ch2 == 8)) { //12
             //     bothwvtri();
             // }
-            
+
             if (currentMode === "ground") {
 
 
@@ -122,6 +122,16 @@ $(document).ready(function () {
                 }
                 if (flag_ch1 === 3 && flag_ch2 === 7) {
                     grndwvtrisq();
+
+                }
+                if (flag_ch1 === 1 && flag_ch2 === 6) {
+                    grndwvsin();
+                }
+                if (flag_ch1 === 2 && flag_ch2 === 7) {
+                    grndwvsq();
+                }
+                if (flag_ch1 === 3 && flag_ch2 === 8) {
+                    grndwvtri();
 
                 }
             }
@@ -226,7 +236,7 @@ $(document).ready(function () {
             // if ((flag_ch1 == 3) && (flag_ch2 == 8)) {
             //     bothwvtri();
             // }
-           
+
 
             if (currentMode === "ground") {
                 if (flag_ch1 === 1 && flag_ch2 === 7) {
@@ -249,6 +259,16 @@ $(document).ready(function () {
                 }
                 if (flag_ch1 === 3 && flag_ch2 === 7) {
                     grndwvtrisq();
+
+                }
+                if (flag_ch1 === 1 && flag_ch2 === 6) {
+                    grndwvsin();
+                }
+                if (flag_ch1 === 2 && flag_ch2 === 7) {
+                    grndwvsq();
+                }
+                if (flag_ch1 === 3 && flag_ch2 === 8) {
+                    grndwvtri();
 
                 }
             }
@@ -344,7 +364,7 @@ $(document).ready(function () {
             // if ((flag_ch1 == 3) && (flag_ch2 == 8)) {
             //     bothwvtri();
             // }
-           
+
             if (currentMode === "ground") {
                 if (flag_ch1 === 1 && flag_ch2 === 7) {
                     grndwvsinsq();
@@ -366,6 +386,16 @@ $(document).ready(function () {
                 }
                 if (flag_ch1 === 3 && flag_ch2 === 7) {
                     grndwvtrisq();
+
+                }
+                if (flag_ch1 === 1 && flag_ch2 === 6) {
+                    grndwvsin();
+                }
+                if (flag_ch1 === 2 && flag_ch2 === 7) {
+                    grndwvsq();
+                }
+                if (flag_ch1 === 3 && flag_ch2 === 8) {
+                    grndwvtri();
 
                 }
             }
@@ -453,8 +483,8 @@ $(document).ready(function () {
                     xytrisquare();
                 }
             }
-            
-           
+
+
             if (currentMode === "ground") {
                 if (flag_ch1 === 1 && flag_ch2 === 7) {
                     grndwvsinsq();
@@ -478,8 +508,18 @@ $(document).ready(function () {
                     grndwvtrisq();
 
                 }
+                if (flag_ch1 === 1 && flag_ch2 === 6) {
+                    grndwvsin();
+                }
+                if (flag_ch1 === 2 && flag_ch2 === 7) {
+                    grndwvsq();
+                }
+                if (flag_ch1 === 3 && flag_ch2 === 8) {
+                    grndwvtri();
+
+                }
             }
-           
+
 
         }
 
@@ -554,8 +594,8 @@ $(document).ready(function () {
                     xytrisquare();
                 }
             }
-           
-            
+
+
             if (currentMode === "ground") {
                 if (flag_ch1 === 1 && flag_ch2 === 7) {
                     grndwvsinsq();
@@ -579,8 +619,18 @@ $(document).ready(function () {
                     grndwvtrisq();
 
                 }
+                if (flag_ch1 === 1 && flag_ch2 === 6) {
+                    grndwvsin();
+                }
+                if (flag_ch1 === 2 && flag_ch2 === 7) {
+                    grndwvsq();
+                }
+                if (flag_ch1 === 3 && flag_ch2 === 8) {
+                    grndwvtri();
+
+                }
             }
-          
+
         }
 
     });
@@ -657,7 +707,7 @@ $(document).ready(function () {
                     xytrisquare();
                 }
             }
-           
+
             if (currentMode === "ground") {
                 if (flag_ch1 === 1 && flag_ch2 === 7) {
                     grndwvsinsq();
@@ -681,8 +731,18 @@ $(document).ready(function () {
                     grndwvtrisq();
 
                 }
+                if (flag_ch1 === 1 && flag_ch2 === 6) {
+                    grndwvsin();
+                }
+                if (flag_ch1 === 2 && flag_ch2 === 7) {
+                    grndwvsq();
+                }
+                if (flag_ch1 === 3 && flag_ch2 === 8) {
+                    grndwvtri();
+
+                }
             }
-           
+
         }
 
     });
@@ -757,8 +817,8 @@ $(document).ready(function () {
                     xytrisquare();
                 }
             }
-           
-           
+
+
             if (currentMode === "ground") {
                 if (flag_ch1 === 1 && flag_ch2 === 7) {
                     grndwvsinsq();
@@ -782,8 +842,18 @@ $(document).ready(function () {
                     grndwvtrisq();
 
                 }
+                if (flag_ch1 === 1 && flag_ch2 === 6) {
+                    grndwvsin();
+                }
+                if (flag_ch1 === 2 && flag_ch2 === 7) {
+                    grndwvsq();
+                }
+                if (flag_ch1 === 3 && flag_ch2 === 8) {
+                    grndwvtri();
+
+                }
             }
-            
+
         }
 
     });

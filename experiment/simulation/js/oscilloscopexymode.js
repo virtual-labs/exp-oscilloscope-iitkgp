@@ -52,6 +52,19 @@ function posiy1chnge() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
+    if (currentMode === "ground") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
+
+        }
+       
+    }
     // if (flag == 4){
     //     grndwvsin();
     // }
@@ -123,6 +136,19 @@ function posiy2chnge() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
+    if (currentMode === "ground") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
+
+        }
+       
+    }
     // if ((flag_ch1 == 1) && (flag_ch2 == 6)) {
     //     bothwvsin();
     // }
@@ -185,6 +211,19 @@ function posix2chnge() {
         if (flag_ch1 === 1 && flag_ch2 === 6) xywvsin();
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
+    }
+    if (currentMode === "ground") {
+        if (flag_ch1 === 1 && flag_ch2 === 6) {
+            grndwvsin();
+        }
+        if (flag_ch1 === 2 && flag_ch2 === 7) {
+            grndwvsq();
+        }
+        if (flag_ch1 === 3 && flag_ch2 === 8) {
+            grndwvtri();
+
+        }
+       
     }
     //  if (flag == 4){
     //      grndwvsin();
