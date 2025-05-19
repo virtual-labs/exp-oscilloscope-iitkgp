@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. CRO stands for_____________",
+      "answers": {
+        "a": "Current Resistance Oscillator",
+        "b": "Capacitance Resistance Oscilloscope",
+        "c": "Central Resistance Oscillator",
+        "d": "Cathode Ray Oscilloscope"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. A function generator is a multipurpose signal source, it can generate:",
+      "answers": {
+        "a": "Square Wave",
+        "b": "Triangle Wave",
+        "c": "Sine Wave",
+        "d": "All of above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. An advantage of Oscilloscope over multimeter is that",
+      "answers": {
+        "a": "We can measure accurate value of voltage",
+        "b": "We can see the wave shape of voltage",
+        "c": "We can measure accurate value of current",
+        "d": "We can measure accurate resistance"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. The graticule of an oscilloscope, which has a grid pattern graduated in",
+      "answers": {
+        "a": "Square centimeters",
+        "b": "Millimeters",
+        "c": "Centimeters",
+        "d": "None of these"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. If the vertical sensitivity is set to 0.5 volt per division and occupies 4 divisions, then peak-to-peak voltage is",
+      "answers": {
+        "a": "4 volt",
+        "b": "5 volt",
+        "c": "2 volt",
+        "d": "20 volt"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
