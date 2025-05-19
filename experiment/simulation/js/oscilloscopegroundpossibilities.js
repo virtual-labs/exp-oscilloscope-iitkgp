@@ -68,6 +68,16 @@ function posiy1chnge() {
         grndwvtrisq();
      
      }  
+     if (flag_ch1 === 1 && flag_ch2 === 6) {
+        grndwvsin();
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
+        grndwvtri();
+     
+     }  
     }
     
     if (currentMode === "both") {
@@ -139,6 +149,16 @@ function posiy2chnge() {
      }  
       if (flag_ch1 === 3 && flag_ch2 === 7) {
         grndwvtrisq();
+     
+     }  
+     if (flag_ch1 === 1 && flag_ch2 === 6) {
+        grndwvsin();
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
+        grndwvtri();
      
      }  
     }
@@ -220,7 +240,17 @@ function posix2chnge() {
       if (flag_ch1 === 3 && flag_ch2 === 7) {
         grndwvtrisq();
      
-     }  
+     } 
+     if (flag_ch1 === 1 && flag_ch2 === 6) {
+        grndwvsin();
+     } 
+      if (flag_ch1 === 2 && flag_ch2 === 7) {
+        grndwvsq();
+     } 
+      if (flag_ch1 === 3 && flag_ch2 === 8) {
+        grndwvtri();
+     
+     }   
     }
     if (currentMode === "both") {
         if (flag_ch1 == 1 && flag_ch2 == 6) bothwvsin();

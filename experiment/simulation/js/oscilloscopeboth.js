@@ -46,6 +46,7 @@ function posiy1chnge() {
     // if ((flag_ch1 == 3) && (flag_ch2 == 8)) {
     //     bothwvtri();
     // }
+    if(currentMode === "ground"){
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
     }
@@ -56,6 +57,7 @@ function posiy1chnge() {
         grndwvtri();
 
     }
+}
     // if (flag == 4){
     //     grndwvsin();
     // }
@@ -91,6 +93,7 @@ function posiy2chnge() {
         if (flag_ch1 === 2 && flag_ch2 === 7) xywvsq();
         if (flag_ch1 === 3 && flag_ch2 === 8) xywvtri();
     }
+    if(currentMode === "ground"){
    
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
@@ -102,7 +105,7 @@ function posiy2chnge() {
         grndwvtri();
 
     }
-
+    }
 }
 
 function posix2chnge() {
@@ -146,6 +149,8 @@ function posix2chnge() {
     // if ((flag_ch1 == 3) && (flag_ch2 == 8)) {
     //     bothwvtri();
     // }
+    if(currentMode === "ground"){
+
     if (flag_ch1 === 1 && flag_ch2 === 6) {
         grndwvsin();
     }
@@ -157,6 +162,7 @@ function posix2chnge() {
         grndwvtri();
 
     }
+}
 }
 
 function ampfng1() {
